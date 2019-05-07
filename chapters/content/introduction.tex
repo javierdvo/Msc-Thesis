@@ -1,0 +1,132 @@
+% ***************************************
+% ***************************************
+\chapter{Introduction} \label{introduction}
+% ***************************************
+% ***************************************
+
+Alzheimer Disease is a neurodegenerative disease that causes the brain to start degrading, it is characterized by the loss of cognitive abilities such as memory, reasoning, language and behavior. The disease leads to dementia and ultimately to death. Late-onset Alzheimer's disease (LOAD) is the most common form of dementia (60\% -- 80\% cases). It occurs more often in people age 60 and older. 
+
+This is a chronic disease which currently has no know effective therapeutic treatment for the disease, either to stop the advance of the sickness or reverse the damage caused by it. The reduced amount of medication available only helps with managing the symptoms to slightly improve quality of life. An estimate from \cite{Ballard2011}  shows that Alzheimer Disease affects between 4 and 6 percent of the population over 65 years old, with an estimated 2 million deaths per year a high maintenance cost.
+
+There is no single effective clinical test for LOAD. Currently, a confirmatory diagnosis of the disease is exclusively available from pathological postmortem examinations \cite{SHAO20171}. However, there is a collection of tests that are considered useful predictors for the clinical diagnosis of LOAD, such as cognitive tests, cerebrospinal and blood biomarkers, genetic markers, and MRI/PET images\cite{Li2017}. Magnetic Resonance Images (MRI) are taken of multiple regions of the brain through the use of magnets and are then analyzed by algorithms or doctors for telltale signs of Alzheimer's Disease progression inside the structure of the brain (Mainly looking for lower than normal size in the temporal and parietal lobes). Positron Emission Tomography (PET) scans use radiotracers linked to biomarkers of the disease to understand and observe the concentration of these biomarkers in specific regions of the brain.
+\newpage
+Unfortunately, the majority of these clinical markers are strongly correlated with the progression of this disease, meaning that they would typically be more informative at later stages of the disease or are very expensive to perform on large population screens. Better clinical tests are needed which are capable to provide accurate predictions for the early diagnosis of LOAD. In effect, it is expected that experimental therapeutic and palliative interventions will be more effective at earlier stages of the disease \cite{biogen2016}.
+
+A promising alternative for the prediction of LOAD is through genetic testing. For example, specific alleles of Apolipoprotein E (APOE) have been implicated as the largest genetic risk factors for LOAD. However, the use of the APOE $\epsilon4$ in clinical practice has been controversial. For example, even though the odds ratio of this genetic marker has been estimated at over 3, in practice, only 1 of 4 patients with this allele progresses to the disease. In the end, there is no known ultimate cause of LOAD and it is likely that LOAD is a complex disease whose etiology is driven by both environmental and multiple genetic components \cite{PANPALLIATES2016124}.
+
+Recent advances on genome technologies have enabled the identification of several genetic variants that are associated with complex diseases \cite{Manolio2009} \cite{MacArthur2017}. However, the complete understanding of the genetic architecture of most complex diseases has remained elusive \cite{Ridge2013}. Advances in this area hold the potential to contribute to the identification of novel drug targets for LOAD \cite{Estrada2018}\cite{Freudenberg2018}.
+
+The genetic component of LOAD has been estimated to be 79\%. However, recent studies on the heritability of LOAD have estimated that common genetic variants identified by genome-wide association studies (GWAS, check chapter 2.1 page \pageref{GWAS}) are only capable to explain 33\% of the phenotypic variance. This means that over 40\% of the genetic component remains unexplained \cite{Raghavan2017}. One such example of a complex genetic phenotype is human height. When using GWAS to obtain specific SNPs researchers could not predict height precisely, as those markers could only explain a fraction of the genetic component. Instead, researchers used multiple common variants (250,000+ SNPs) and were much more succesful in explaining the genetic variation \cite{Yang2010}.
+
+Recent studies have been postulated a collection of theories that should be capable to explain the missing heritability (Check chapter 2.1 page \pageref{missHerit}) of complex diseases \cite{Manolio2009}\cite{Eichler2010}. These theories include: (1) a more comprehensive collection of genes with low effect sizes associated with the disease; the existence of gene-gene interactions --epistatic effects; and gene-environmental interactions, among others.
+\newpage
+For Artificial Intelligence this problem presents an opportunity to develop an algorithm that can take the $\beta$-Amyloid hypothesis (For more information check chapter 2.2 page \pageref{betaAmyloid}) as well as yet-unexplored genes using Machine Learning. These models can discover genetic features as well as correlations that can be used to analyze and create predictions based on a learned model of the chances a person might have of developing Alzheimer disease. The person would go to a clinic where tests would be taken to obtain the genetic information, which would then be analyzed by the machine learning models. After processing them the system would give a good estimate of the risk this person has of developing Alzheimer's Disease. This has the possibility to have sizable impact as currently the amount of people living over 65 years is constantly increasing, which in turn means that more people will start to develop Alzheimer and will require both care and attention. 150 million people are expected to develop this disease by 2050 and as such it will be quite expensive in terms of family and resources to handle this disease. While this technology is purely predictive this method can have the benefit to prepare and plan economically, socially and emotionally for the effects of Alzheimer. Additionally, if a preemptive medicine can be shown to reduce $\beta$-Amyloid plaque formation before Alzheimer develops such a technique would be required to determine who should receive these medications to slow and hopefully prevent Alzheimer disease. Another possible avenue would be using the genetic knowledge to design specific drugs targeted to those exact mutations; with tools such as monoclonal antibodies, small bodies or gene therapy. Finally, with the development of CRISPR-CAS9 and other gene-manipulating methods it could be possible in the future to adjust the genes responsible for increasing the risk of Alzheimer's Disease.
+
+An approach using Deep Neural Networks (Check chapter 2.3 page \pageref{DNNs}) for learning is the main component of the Artificial Intelligence solution. Deep Learning has developed into maturity in the latest years thanks to both higher processing power and the creation of frameworks that optimize working with it. Deep Learning allows the detection of slight and tiny patterns \cite{Schmidhuber2015}, which to a human doctor would be invisible, to use for predicting a probability regarding the development of Alzheimer in future years\cite{Jessen2014}. 
+
+To contrast the Deep Learning model two more Machine Learning methods are used: Random Forest and Support Vector Machines (Check chapter 2.3 page \pageref{RF}) . Random Forests have been used in genomics \cite{CHEN2012323} and thanks to the statistical properties of the ensemble model can find a larger group of interesting features useful for multi-gene approaches. Support Vector Machines have also been used with success in genetic micro-arrays \cite{peng2003molecular}, and could be useful as the hyper-plane model and the kernel trick could allow it to find non-linearity compositions between multiple genes.
+
+Considering the limitations in size of the ADNI dataset, to assess the performance of the Deep Learning method in an ideal case a complex genetic disease similar to Alzheimer's is simulated and evaluated. This is done to measure the impact of the dataset size with respect to the classifier performance and doing cross-analysis with respect to the number of variants used to classify. Apart from the simulation, an artificial data augmentation procedure is also implemented to increase the size of the ADNI dataset for training the models in a way that allows to compare how the procedure could manage to perform if the ADNI dataset was larger.
+
+Additionally, the FRESA.CAD (Feature Selection Algorithms for Computer Aided Diagnosis, check chapter 2.3 page \pageref{fresaCAD}) \cite{fresa} benchmark tool is further used to perform a statistical feature selection using the BSWiMS method, LASSO, KNN, as well as the ensemble of the models. The cross-validation and repetition methods also give it a high degree of statistical accuracy. FRESA.CAD additionally has the advantage of returning the features most selected across the models and as such can extrapolate to a valid analysis of the gene variants which in the end allows a more direct interpretation.
+
+To contrast Machine Learning methods with a more traditional approach to genomics methods, the LDPred-funct algorithm by Dr. Marquez-Luna \cite{Marquez-Luna375337} is also used to generate a Polygenic Risk Score (Check chapter 2.1 page \pageref{PRS})  and classify the dataset.
+
+A series of experiments are conducted using these methods for predicting late-onset Alzheimer's disease using Whole Genome data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) project. The mixture and variation between experiments gives a rounded analysis of the classification problem, it's complexity as well as a confidence of the results obtained using the different methods.
+
+
+Experimental results indicate that classification performance of $\sim$ 65\%~$\sim$ 70\% of area under the ROC curve (AUC) can be achieved with the proposed Machine Learning models. Furthermore, the experiments reported here suggest that an increasing number of genetic variants hold the potential to contribute to improve the predictive capabilities of the proposed model providing that sufficiently large datasets are available.
+\newpage
+% *******************************************
+\section{Justification} \label{justification}
+% *******************************************
+
+Alzheimer disease as it has been shown is a complex disease with multiple components and that is not yet understood. Thus initially the problem begins at the stage where possible solutions must base themselves on a tenuous hypothesis regarding what precisely leads to Alzheimer. The disease is not yet understood as sufficiently as required to realize a quite accurate and precise solution. 
+
+Currently there does not exist a sure-proof and financially viable way to detect Alzheimer before symptoms begin to happen, as Laske describes \cite{LASKE2015561}. Most of the time either the disease goes undetected or is diagnosed via mental and analytic exams done on a patient who is already experiencing the symptoms. These tests measure cognitive functions and memory capabilities to try and diagnose Alzheimer, and indeed are quite accurate with the corresponding diagnosis. But the problem lies in that these tests come in too late to be of help for mid and long term planning or for potential treatments that might slow down the progression of Alzheimer. Another problem with tests is that there is no method that can work en-masse cheaply so that everyone above 60 takes them consistently. As Laske mentions \cite{LASKE2015561} there are some interesting avenues such as  gait and speech analysis, blood-based biomarkers and computational models.
+
+Genetic tests as shown before can also be undertaken to find the presence of known genes that increase the risk of developing Alzheimer, but as is the current case there is no definitive result using single markers.
+
+This problem has been analyzed by multiple institutions and one organization in particular has created a database to study and research Alzheimer disease: The Mark and Mary Stevens Neuroimaging and Informatics Institute. Together with other institutions they have created the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database \cite{MarkandMaryStevensNeuroImagingInstitute} which consists of studies taken of multiple American cohorts. These subjects have taken Cerebrospinal Fluid(CSF) and Positron Emission Tomography (PET) to detect $\beta$-Amyloid and tau proteins, Magnetic Resonance Imaging (MRI) of specific brain areas, Whole-Genome sequencing as well as multiple cognitive assessment tests and finally a medical diagnostic of the mental condition. This is a complete database with multiple tests taken across the years on the same subjects to analyze and record progression and as such is the database being used for training the machine learning algorithms. 
+\newpage
+There have been some approaches to detect and predict Alzheimer based on the use of Support Vector Machines \cite{Orru2012} and MRI analysis \cite{Kloppel2008}\cite{Long2017}. The problem with the first solution is that Support Vector Machines enrich the data artificially and can be subject to over-fitting on a data set. The second one requires costly and lengthy MRIs which makes the cost prohibitively more expensive such as to use them in a genetic test done just once.
+
+Thus a solution that is scalable, generalizable and precise is required to solve the problem of successfully predicting the probability of developing Alzheimer in a precise manner.
+
+Deep learning (DL) are machine learning models that are becoming increasingly popular in solving a variety of problems in medicine \cite{LeCun2017}.  Deep learning is an extension of the Neural Network algorithm, where the amount of layers is greatly increased. When this schema is complemented with processing power and representative data-sets it allows the agent to learn the representation of the date, and create multiple levels of it. Thanks to this the agent not only detects interesting features and crucial information, but it also has a limited knowledge of how an object or concept is represented across the multiple dimensions that create it. It does this without any hand-crafted features or details, thus being great at handling new data and requiring little fitting. In recent years, DL models have shown excellent results on the examination of clinical images, approaching human level performance \cite{Esteva2017}. Thus it can be worthwhile to explore the use of dense deep neural networks (DDNN) models for predicting complex disease from genetic data.
+
+Through the observation of the ADNI data set the deep network will be able to learn a model that can successfully and accurately predict the probability of having Alzheimer in the future. This is without having the full spectrum of biological information and the concrete model of disease progression. The neural networks will learn dynamically what variants cause Alzheimer to develop further in the future and given incomplete data from a new patient to estimate the development (or a lack thereof) of Alzheimer disease. The proposed neural networks will correctly determine whether a given patient fits into either class of the binary classification and with which probability they belong to that category. The algorithm will continually improve itself via backpropagation to ensure future predictions are as accurate as possible and to get a more clear grasp of the true underlying model of Alzheimer disease progression. 
+\newpage
+Equally, Random Forest and Support Vector Machines are also robust machine learning techniques that perform well in small datasets and which do not require as many samples as other methods to generate good results. As such it is worth contrasting with the deep network due to the size of the ADNI. The downside with these methods is that the continuous improvement for the system by feeding additional samples is not as straightforward and robust as the deep network. Additionally, if the true underlying model is much more complex and non-linear than expected then it is possible that the deep network is the method that can describe it more fully.
+
+The simulation analysis is a useful tool to validate some underlying thoughts about the method. Firstly, it allows the replication of a complex genetic disease with models that are based on human genetics, thus creating a valid dataset to prove how these methods work in genetic phenotype prediction. This in turn allows the use of much larger sample sizes, and gives perfect testing grounds to analyze the effect of increasing the sample size for deep learning and the other machine learning methods. It also allows testing the effect of increasing both the sample size and the number of variants used to calculate the risk. The only limitation with this method is that the simulated diseases are completely genetic in nature, while Alzheimer's is only partially genetic, and as such the maximum scores achievable between them are not the same.
+
+Furthermore, the inclusion of the artificial data augmentation method is also highly beneficial to further analyze the two previous points regarding the increase in the dataset size as well as the number of variants used with the real world dataset. By being able to generate more samples based on a real-world dataset the statistical distributions, allele frequencies and other genetic components of the simulated samples closely follow those that exist in the ADNI. As such, allowing for a simulation that is much more robust, follows the same characteristics of existing samples and can be directly used for the disease that is of interest. Additionally, the method also allows a purely synthetic training to be validated on the real-world samples. This is worthwhile due to the fact that genetic datasets are not very common and they tend to have a reduced number of samples, in contrast with imaging tasks with millions of images further augmented to have even more.
+
+By using the FRESA.CAD Benchmark the feature analysis is incorporated which allows the system to predict which variants are the ones that give the most information, which are the ones being chosen the most, and the prediction capability of each gene. Using these results it is possible to analyze the variants responsible for increasing the risk of Alzheimer's disease and which are useful in a prediction algorithm. With this the amount of genes than need to be genotyped is reduced drastically, and chipsets with the desired genes can be chosen. Additionally, biological and chemical pathways of the variant can be analyzed to confirm if the gene correlation is not only statistical but has a biological relationship with Alzheimer's. The machine learning methods in the FRESA.CAD benchmark also have a robust statistical analysis and as such could provide correct predictions and a certainty of them.
+
+The proposed methods are both scalable and generalizable, while being efficient when processing vast amounts of data and stable when facing outliers, coupling this with inherent learning will make it affordable.
+
+
+% *******************************************
+\section{Hypothesis} \label{hypothesis}
+% *******************************************
+
+In this thesis, it is proposed to explore the hypothesis on the existence of multiple genes with low effect sizes contributing to the risk of developing LOAD. To test this hypothesis it is proposed to conduct computational experiments on the ADNI dataset by the construction of deep learning and machine learning predictive models using large collections of genetic markers that are capable to predict LOAD from this data and which obtain a score above 65\% in the ROC AUC Score for the binary classification problem. Furthermore, it is also proposed to validate these models on a simulated dataset to benchmark the performance of these algorithms on a general complex genetic disease to prove the general validity of the models, as well as running the data-augmentation method to validate the performance of the models using a larger dataset. Finally, it is proposed to perform tests using the FRESA.CAD Benchmark for feature analysis to identify the gene variants associated with the prediction capability.  
+\newpage
+The main questions to be solved in this hypothesis are the following:
+\begin{itemize}
+
+\item What are the optimal tuning parameters for the Deep Networks and Machine Learning models that can minimize the cost function and obtain the best receiver operating characteristic curve for the described task?
+
+\item What is the performance of these same algorithms when using a simulated complex disease instead of a real-world dataset?
+
+\item What is the benefit of using a data augmentation method to artificially increase the genetic dataset?
+
+\item Does the data set contain enough data and diversity so that the different models can extract good representations and provide real world solutions?
+
+\item Which gene variants and data representation are the ones that provide the most information for prediction?
+\item What are the limitations and improvements of the proposed systems for prediction under the described hypothesis?
+
+\end{itemize}
+
+% *******************************************
+\section{Objectives} \label{objectives}
+% *******************************************
+
+The main objective to accomplish with this thesis is to prove that the proposed Deep Learning and Machine Learning methods trained with the simulations as well as the ADNI data set can be used reliably to accurately predict the risk of developing Alzheimer disease of an individual. This will be proved in tests by obtaining high sensitivity and specificity to achieve an area under the ROC curve of 0.65 or more in multiple test sets. One secondary objective to accomplish is to prove that the model works correctly and maintains a high degree of precision if the data it is given is limited or noisy as is the case with multiple sequencing datasets. This will be validated via the use of multiple samples which have data missing. Another objective is to ensure that this method can be applied to real life scenarios and not only simulated scenarios, by using data obtained from real patients obtained in the ADNI dataset which consists of real patients and analysing the results obtained there in addition to the simulated experiments. The last goal to accomplish is to ensure that the system can be implemented and executed in an affordable manner which can be easily scaled to benefit a considerable amount of the population. This will mostly depend on the chosen variants  which are necessary to increase the ROC metric and their attached cost as not all gene variants can be genotyped as easily or using the same chipset.                  
+
+
+
+% *********************************************************
+\section{Thesis contributions} \label{thesis_contributions}
+% *********************************************************
+
+The thesis, through the different experiments obtains multiple results from varied methods and as such the results show how some methods or techniques are better suited to the current problem (And the greater problem of Machine Learning for Genomics Analysis and Diagnostic) and which others do not perform greatly. 
+
+The main contributions of this thesis to the state of the art are as follows:
+
+\begin{itemize}
+	\item First implementation of Deep Learning using Whole-Genome Sequencing data for Alzheimer's Disease risk prediction.
+	\item Comparison and bench-marking between different Machine Learning methods for the classification task.
+	\item Analysis of the methods that performed adequately on the task.
+	\item Simulation of a complex genetic disease and respective performance of the same algorithms on the simulation.
+    \item Data augmentation procedure for enrichment of genetic datasets using a valid statistical basis.
+    \item Feature variant selection and Meta-Analysis through the use of FRESA.CAD for identification of the important variants for a clinical diagnosis and solution.
+    
+\end{itemize}
+
+
+% ***************************
+\section{Thesis organization}
+% ***************************
+
+The organization of this thesis is as follows: Chapter \ref{background} introduces to basic concepts in the area of Machine Learning, Deep Learning, Alzheimer's Disease and Genomics, as well as work done previously in the area. In chapter \ref{materials_and_methods}, the materials and methods are shown. This chapter comprises the source and describes each dataset employed, as well as the methodology behind the experiments. The results, experiments and  discussion are shown in chapters \ref{results}. Finally, the document ends with the conclusions and future work in chapter \ref{conclusions}.
+
+
+
+
+
+
+
+

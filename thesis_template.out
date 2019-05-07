@@ -1,0 +1,48 @@
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Justification}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Hypothesis}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Objectives}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Thesis contributions}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.5}{Thesis organization}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Genomics}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Genetic Variation, Polymorphisms and Sequencing}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Linkage \(Dis\)Equilibrium and Missing Heritability}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.3}{Genome-Wide Association Study}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.4}{Polygenic Risk Scores}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.5}{LDPred-funct}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Alzheimer Disease}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Machine Learning}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Support Vector Machines}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.2}{Random Forest}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.3}{Neural Networks and Deep Neural Networks}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.4}{FRESA.CAD Benchmark}{section.2.3}% 22
+\BOOKMARK [1][-]{section.2.4}{Previous Work}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.1}{Genetic Prediction with Deep Learning}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.2}{Alzheimer Disease Detection}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.3}{Alzheimer Prediction}{section.2.4}% 26
+\BOOKMARK [0][-]{chapter.3}{Materials and methods}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Data set}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Tools and Software}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{Quality Control Pipeline}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Random Forest and Support Vector Machine Hyper-parameters}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.5}{Neural Network Architecture}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.6}{Simulation and Data augmentation}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.7}{FRESA.CAD}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.8}{LDPred-funct}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.9}{Validation Methodology and Metrics}{chapter.3}% 36
+\BOOKMARK [0][-]{chapter.4}{Experiments and Results}{}% 37
+\BOOKMARK [1][-]{section.4.1}{Direct Analysis}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.2}{Simulation}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.3}{Data Augmentation}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.4}{FRESA.CAD}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.5}{LDPred-funct}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.6}{Discussion}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{Conclusions and future work}{}% 44
+\BOOKMARK [1][-]{section.5.1}{Conclusions}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 46
+\BOOKMARK [0][-]{chapter.6}{Bibliography}{}% 47
+\BOOKMARK [0][-]{chapter*.7}{Vita}{}% 48

@@ -1,0 +1,152 @@
+% ***************************************
+% ***************************************
+\chapter{Materials and methods} \label{materials_and_methods}
+% ***************************************
+% ***************************************
+In this section the actual characteristics and details of the proposed solution will be described, as well as the metrics used for validating the obtained results. The Data set being used will be documented in detail as well as the further changes and selections done to it. The Tools and Software that are employed in method are also discussed. A thorough description of the Quality Control Pipeline being used to process the genetic data is given. Next, the Neural Network architecture being used is described, considering the different Hyper-parameters and structure selected. Afterwards, the Simulation and Data Augmentation methodologies are described in detail to give the specifics of both cases. A brief description of the models used with the FRESA.CAD benchmark as well as the parameters set follows the Simulation and Data Augmentation segment.Then, the changes and settings for the LDPred-funct experiment are shown. Finally, the Validation Methodology as well as the Metrics used to evaluate performance are described.
+
+\section{Data set}
+ 
+The selection of an appropriate data set for training and testing is crucial as the machine learning algorithm will be as good as the information provided to it. A skewed data set will give skewed results and an empty data set will not be able to generalize correctly. Thus the choice of a well-designed and correct dataset is the ADNI database. 
+
+Data used in the preparation of this thesis were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). The ADNI was launched fin 2003 as a public-private partnership, led by Principal Investigator Michael W. Weiner, MD. The primary goal of ADNI has been to test whether serial magnetic resonance imaging (MRI), positron emission tomography (PET), other biological markers, and clinical and neuropsychological assessment can be combined to measure the progression of mild cognitive impairment (MCI) and early Alzheimer’s disease (AD). This data set is the de-facto data set for Alzheimer investigation worldwide and thus can be easily validated and checked. The use of this dataset allows to prove the objective of using real-world information as well as enabling the network to learn from a medium-sized Whole-Genome Sequencing dataset for better predictions. Approved access is required to download the ADNI dataset through registering on their web page and filling the form. The access request is easily accepted as a way to ensure as many researchers as possible can use the dataset.
+
+The ADNI dataset individuals have multiple possible diagnosis: Cognitively Normal (CN), Early and Late Mild Cognitive Impairment (eMCI, lMCI) and Alzheimer's Disease (AD) .The ADNI Study is divided in three different studies so far: ADNI 1, ADNI GO and ADNI 2. The ADNI 1 study consisted of 200 CN, 400 MCI and 200 AD individuals. ADNI GO extended this with 200 eMCI individuals and 500 rollovers from ADNI 1. Finally, ADNI 2 integrated those rollovers with 150 CN, 150 eMCI, 150 lMCI, and 200 AD additional individuals. 
+
+In this case the subset of data to be utilized are the Whole-Genome Sequence (WGS) samples for 812 individuals available on the ADNI database. These WGS were sampled on an Illumina Omni 2.5M chipset and containing 2,379,855 Single Nucleotide Polymorphisms(SNPs).  Due to the varying nature of MCI and the uncertainty of whether the patient will progress to Alzheimer's Disease the classification is strictly binary and as such the only samples taken for the binary classification are those that have a CN or AD diagnosis. 
+
+Additionally, the results from the International Genomics of Alzheimer's Project\cite{Lambert2013} are also used to do feature selection, guide the learning process of the algorithm and to obtain the value for augmenting the data set artificially. The International Genomics of Alzheimer's Project (IGAP) is a large two-stage study based upon genome-wide association studies (GWAS) on individuals of European ancestry. In stage 1, IGAP used genotyped and imputed data on 7,055,881 single nucleotide polymorphisms (SNPs) to meta-analyse four previously-published GWAS datasets consisting of 17,008 Alzheimer's disease cases and 37,154 controls (The European Alzheimer's disease Initiative – EADI the Alzheimer Disease Genetics Consortium – ADGC The Cohorts for Heart and Aging Research in Genomic Epidemiology consortium – CHARGE The Genetic and Environmental Risk in AD consortium – GERAD). In stage 2, 11,632 SNPs are genotyped and tested for association in an independent set of 8,572 Alzheimer's disease cases and 11,312 controls. Finally, a meta-analysis is performed combining results from stages 1 \& 2.
+
+Most of the individuals with WGS that form part of the ADNI 1 and ADNI GO studies are also included as part of the IGAP GWAS meta-analysis, while the new individuals in the ADNI 2 study are completely independent of the IGAP. As such some experiments make the distinction between those two groups in the ADNI dataset.
+
+
+\section{Tools and Software}
+
+The software used to read the Variant Call Format data of the WGS and convert it to the more compact format of Binary Pedigree Files (BED) PLINK\cite{PLINK}\cite{plink2} is used, as well as for the quality control pipeline.
+The code is implemented in Python 3.5, using Tensorflow\cite{tensorflow2015-whitepaper} for the GPU backend and Keras\cite{chollet2015keras} for the deep learning framework, to access the Binary Pedigree Files from python the library PyPlink\cite{pyplink} is used. These tools are available as open-source in their respective web pages as well as in Github.
+
+\section{Quality Control Pipeline}
+
+When handling genetic data specific care must be taken to pre-process it by using different Quality Control methodologies, as there are some intrinsic factors in genetics that can cause methodological errors or inconsistencies between results which do not normally factor in other types of datasets. These factors can be related to the Samples, to the Markers or to the Batch effects. The pipeline described by Turner et al \cite{Pipeline} describes some of the most common characteristics that need to be analyzed and filtered:
+
+\begin{itemize}
+    \item{Chromosomal anomalies}
+    \item{Sex anomalies}
+    \item{Related Samples}
+    \item{Population Stratification}
+    \item{Sample Call Rates}
+    \item{Marker Call Rates}
+    \item{Minor Allele frequency (MAF)}
+    \item{HapMap Concordance}
+    \item{Hardy-Weinberg Equilibrium}
+    \item{Linkage Disequilibrium }
+    \item{Plate measurement effects}
+    
+\end{itemize}
+
+For this thesis the pipeline described is followed with some adjustments. The first two analysis is not performed as the scope is not concerned with the sex of the individuals and thus the 23th chromosome is discarded. The next step is to do the sample analysis. It is required to perform some pre-quality controls on the data (marker call rate, sample call rate and MAF) and then analyze Identity-By-Descent calculations to identify those individuals that are family with an IBD sharing of more than 0.25. 8 different individuals are found to be related, and thus are added to the list to be removed. Doing a quick analysis of the IDs and the ADNI reference information it is found there are no individuals from populations different from "White" in the 808 samples for the WGS ,this is confirmed by using Principal Component Analysis and finding no severe outliers. Due to the nature of the binary classification problem at the pre-processing stage all the individuals which are assigned an EMCI, LMCI or SMC diagnosis are removed. Considering these 3 sample filters the dataset is reduced from 808 samples to 471.
+
+Once reduced in samples the next step is to do the call rate and MAF filtering. At this point it begins with a dataset consisting of 471 samples with 42,908,833 variants. Then the Sample call rate filtering is performed with the default value of 90, this reveals that no sample is to be removed. Afterwards the Marker call rate filtering is done using a value of 99, thus removing all SNPs with a lower call rate than 99 and obtaining 38,517,541 markers remaining. Then the MAF is calculated and all SNPs with a MAF of <0.01 are also removed. 8,968,581 markers are left after the MAF thresholding.
+
+ The next step is to perform the Hardy-Weinberg Equilibrium test using a significance value of 0.05 to remove all markers with a lower value, obtaining 8,498,435 remaining markers. The last step is to perform an LD-based clumping on the data set before the pruning but without the correlated individuals. The IGAP results are then used as the association study from which to obtain the p-values for the LD-based Clump,which is then run with a p-value of 0.001 and $r^2$ of 0.05 to obtain a list of the 1,884 best index SNP candidates which is the one that will be utilized to guide the learning procedure. The deep learning algorithms will then analyze subsets of the most significant SNPs, thus performing a more strict significance filtering later on. The HapMap concordance and the plate measurement effects are not taken into account.The first is ignored as it is desired to maximize the markers obtained from the IGAP study within the clump and the second primarily because the ADNI study already incorporates quality controls within the device procedure. 
+
+
+\section{Random Forest and Support Vector Machine Hyper-parameters}
+
+The Random Forest implementation is done using 100 different trees with no maximum depth given, nor a maximum number of leaf nodes. This allows the trees to become sufficiently large if needed by the dataset and allow the use of a broader spectrum of SNPs. For the number of features per tree the standard value of the square root of the total number of features is used. The quality criterion chosen is the Gini impurity metric.
+
+For the Support Vector Machine the main feature to select is the kernel. In this case the kernel used was a radial basis function using a gamma value of 1 divided by the number of given features. 
+
+These hyper-parameters tend to be the default ones chosen for both models and perform well on the given dataset and as such did not require to have much adjustment.
+
+\section{Neural Network Architecture}
+
+Two major factor which defines how a neural network performs are the function chosen to activate the firing of a neuron and the one selected to minimize loss. The first will modify the way neurons are or are not activated while the second will affect the learning process via what to reward or punish. The decision of the structure a neural network will follow is crucial to obtain satisfactory results. A network which is too shallow will not be able to learn any useful structures, while one too deep will be unnecessarily complex for the given genetic problem.
+
+The activation function for the neuron layers proposed is the Rectified Linear Unit "ReLU" as the gradient will be efficiently propagated and the activation of units will be small, splitting decision making across the network. Weight Dropout of 30\% per Dense layer is also used to avoid the vanishing gradient problem and to avoid over-fitting. Additionally, each Dense layer is initialized using a He Normal initialization and regularized using L2 with a factor of 0.000001.
+Regarding the loss function optimization, Cross-Entropy Loss is the chosen loss function to try and minimize the error on the training data. This loss function tries to minimize both misclassification probability and increase precision on the prediction.
+For the model optimization the default Adam model is used as the optimizer (With the default parameters suggested in its paper).
+Additional Normalization as well as Gaussian Noise layers are also added to generalize the model after the first two layers.
+
+Using the adjustments and hyper-parameters described the neural network should become very resistant to some of the common pitfalls and thus will be able to generalize in a better way which should result in better predictions for real-world scenarios.
+
+The Neural Network architecture is designed as follows:
+\begin{itemize}
+    \item{Input: SNPs obtained from QC Pipeline
+    }
+    \item{Dense with neurons equal to the number of inputs SNPs*, ReLU as activation, L2 Regularization and He Initialization}
+    \item{Batch Normalization, Dropout Layer with 30\% of inputs to drop,Gaussian Noise with 0.3 as Standard Deviation}
+    \item{Dense Layer with 1024 outputs, ReLU as activation,  L2 Regularization and He Initialization}
+    \item{Batch Normalization, Dropout Layer with 30\% of inputs to drop}
+    \item{Dense Layer with 512 outputs, ReLU as activation,  L2 Regularization and He Initialization}
+    \item{Batch Normalization, Dropout Layer with 30\% of inputs to drop}
+    \item{Dense Layer with 256 outputs, ReLU as activation,  L2 Regularization and He Initialization}
+    \item{Batch Normalization, Dropout Layer with 30\% of inputs to drop}
+    \item{Dense Layer with 64 outputs, ReLU as activation,  L2 Regularization and He Initialization}
+    \item{Dense with 2 outputs, sigmoid activation}
+    \item{Output: Prediction probability for Alzheimer's Disease}
+\end{itemize}
+
+The Convolutional network structure has two different variants, where both use 1-dimensional convolutional filters with size 5, and uses the Same padding technique to handle edges. One version uses Dropout while a different version utilizes Batch Normalization:
+
+\begin{itemize}
+    \item{Input: SNPs obtained from QC Pipeline
+    }
+    \item{1-Dimensional Convolution with  neurons equal to the number of inputs SNPs*, ReLU as activation}
+    \item{Dropout Layer with 20\% of inputs to drop or Batch Normalization}
+    \item{1-Dimensional Convolution with  neurons equal to the number of inputs SNPs*, ReLU as activation}
+    \item{Dropout Layer with 20\% of inputs to drop or Batch Normalization}
+    \item{1-Dimensional Convolution with  neurons equal to the number of inputs SNPs*, ReLU as activation}
+    \item{Dropout Layer with 20\% of inputs to drop or Batch Normalization}
+    \item{1-Dimensional Convolution with  neurons equal to the number of inputs SNPs*, ReLU as activation}
+    \item{Dropout Layer with 20\% of inputs to drop or Batch Normalization}
+    \item{Global Max Pooling}
+    \item{Dense with 2 output, sigmoid activation}
+    \item{Output: Prediction probability for Alzheimer's Disease}
+\end{itemize}
+
+This structure and the chosen hyper-parameters that give an optimized performance of the models are mainly the result of empirical exploration and examination, using multitude iterations to find the model that gave the best results. The exploration was guided on the traditional methods and parameters that have been proven to give good results across different classification techniques. There is a good amount of trial and error required with Neural Networks to adjust it.
+
+
+
+\section{Simulation and Data augmentation}
+
+One of the traditional requirements for Neural networks to work is the use of a large amount of samples. Thus the question of considering what would happen if there existed a given complex genetic disease and how the size of the data set used for training could affect the final results as the original ADNI data set is small. Thus, the PLINK simulator was used to generate a disease roughly distributed in a complex manner, with 912,053 SNPs, out of which there are 12,053 genes related to the disease with different Odds Ratio (A very highly-correlated SNP, some few SNPs with high-correlation, and many with low correlation). 200,000 samples are generated and then 100,000 independent samples are taken out of those obtained to generate a simile of a GWAS which is used to guide the feature selection process. Afterwards,  subsets of the remaining 100,000 individuals are taken with increasing sizes, from 500 individuals up to 10,000 individuals. Then 5-Fold Cross-Validation is done by splitting those subsets into training and testing sets.
+
+Furthermore, the simulation step is taken and extended for the data augmentation procedure. Based on the assumption that the dataset could be lacking more subjects to train in a better way the Machine Learning algorithms it is decided to augment the existing data with artificial individuals obtained from a simulation with statistical characteristics similar to the ones found in the IGAP and ADNI studies. First, the number of SNPs is reduced to the amount present both in the IGAP results which included Odds Ratio as well as in the WGS. Then, a clump is applied as above without using any p-value filtering to obtain those SNPs in Linkage Equilibrium (As the simulator generates samples where all SNPs are in Linkage Equilibrium). The odds ratio associated to the disease are then obtained from the IGAP study, while the the allele frequencies are calculated from the full ADNI WGS (808 individuals, discarding the individuals related to each other). In this way artificial data is generated that is similar in terms of allele frequencies to the one present in the ADNI WGS as well as being similar with the results of the IGAP study with respect to the odds ratio of the disease.
+
+Thus, using PLINK a set of sample using these metrics are generated. Different sizes of data sets are used, having sets of 500, 5000 and 50000 individuals, this with the objective of validating the impact in terms of performance of the machine learning algorithms when using data sets with an increasing number of samples. The algorithms are trained exclusively on the artificial data, and are then tested with 138 individuals from the ADNI WGS data set which are not present in the IGAP study to ensure no information leakage is occurring, as well as the complete 471 individuals in the binary classification. The first subset is split 78\% cases and 22 \% controls, thus the ROC Score gives a much clearer view of the classification performance.
+
+\section{FRESA.CAD}
+
+
+The FRESA.CAD Benchmarking tool is also used with the same dataset using Cross Validation with the full ADNI dataset, to limit the algorithms due to resource constraints only the top 2,500 SNPs are used. A second benchmark is run using only the validation dataset independent of the IGAP to compare the results with other methods and ensure there is no information leakage, this subset uses only the top 1,000 SNPs as the sample size is smaller. The benchmarks are run with a p-value limit of 0.05, doing 100 repetitions of the models and having a train fraction of 90\% for each iteration.
+
+The benchmark method will use the following algorithms as a comparison:
+
+\begin{itemize}
+    \item{Bootstrap Stage-Wise Model Selection (BSWiMS), or user-supplied cross-validated (CV) method.}
+    \item{Least Absolute Shrinkage and Selection Operator (LASSO)} 
+    \item{Random Forest (RF)} 
+    \item{Recursive Partitioning and Regression Trees (RPART)}
+    \item{K Nearest Neighbors (KNN)4 with BSWiMS features} 
+    \item{Support Vector Machine (SVM)5 with minimum-Redundancy-Maximum-Relevance (mRMR)6 feature selection filter} 
+    \item{The ensemble of all the above methods}
+\end{itemize}
+
+These classification algorithms are also complemented with the following feature selection algorithms as well as different filters: BSWiMS, LASSO, RPART, RF, integrated discrimination improvement (IDI), net reclassification improvement (NRI), t student test, Wilcoxon test, Kendall correlation, and mRMR as filters on the following classifiers: KNN, naive Bayes, nearest centroid (NC) with normalized root sum square distance and Spearman correlation distance, RF and  SVM. As a result, it returns the Accuracy, Sensitivity, precision, Balanced Error Rate, and ROC area with a given 95\% Confidence interval.
+
+\section{LDPred-funct}
+
+The LDPred-funct algorithm requires a series of inputs to function correctly.
+
+The first requirement is a Functional Enrichments file which gives the estimated heritability per SNP of the desires disease. To obtain this the software LDSC is used. LDSC in turn is provided with the baseline LD Scores\cite{Finucane2015}, the 1000Genomes Phase 3 data \cite{Consortium2015} and the IGAP summary statistics which will determine the heritability of Alzheimer's Disease based on the statistical data of the IGAP cohort.
+
+Additionally, LDPred-funct also requires the data regarding the Odds Ratio and Beta values from the IGAP, as well as the WGS and phenotype data from the ADNI dataset to perform the validation 
+
+Using this data the algorithm then returns an $r^2$ value as well as the Polygenic Risk Score for each individual.
+
+\section{Validation Methodology and Metrics}
+
+
+A proper selection of validation metrics and methodologies is important to ensure that the obtained results can be compared and contrasted quantitatively to prove the algorithms work. The value to compare will be the resulting disease diagnosis as well as the resulting error estimation and  the area under the Receiver-Operating-Characteristic, Area under the Curve (ROC-AUC) Score. 5-Fold Cross-Validation is used in the data set to ensure the results are statistically relevant and the validation does not over fit, with the resulting ROC and error values being the average of the 5 runs. This is done both in the direct case as well as in the simulation of a complex genetic disease. When testing the IGAP samples for train and the non-IGAP samples for test it is just done directly without Cross-Validation. For the case where the data-augmentation process is done the the training is performed on the different subsets and then tested directly on the 138 individuals of the ADNI that are unrelated or on the whole subset of the 471 individuals. By using these metrics which have been proven accurate and widely used the proposed algorithm can be shown to embody the desired characteristics: accuracy, precision, generalization, resilience; and thus prove the algorithm is a better solution than the current methods.

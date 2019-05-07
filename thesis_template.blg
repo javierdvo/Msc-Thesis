@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis_template.aux
+A level-1 auxiliary file: chapters/format/cover.aux
+A level-1 auxiliary file: chapters/format/commitee.aux
+A level-1 auxiliary file: chapters/format/declaration_authorship.aux
+A level-1 auxiliary file: chapters/content/dedicatory.aux
+A level-1 auxiliary file: chapters/content/acknowledgments.aux
+A level-1 auxiliary file: chapters/content/abstract.aux
+A level-1 auxiliary file: chapters/content/introduction.aux
+A level-1 auxiliary file: chapters/content/background.aux
+A level-1 auxiliary file: chapters/content/materials_and_methods.aux
+A level-1 auxiliary file: chapters/content/results.aux
+A level-1 auxiliary file: chapters/content/conclusions_future_work.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: chapters/content/vita.aux
+Database file #1: bibliography/references.bib
+Warning--empty booktitle in rf
+Warning--you've exceeded 5000, the global-string-size, for entry Consortium2015
+while executing--line 969 of file ieeetr.bst
+*Please notify the bibstyle designer*
+(There were 2 warnings)

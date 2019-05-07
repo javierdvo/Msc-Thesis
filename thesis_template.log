@@ -1,0 +1,1298 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.6)  7 MAY 2019 01:00
+entering extended mode
+**./thesis_template.tex
+(thesis_template.tex
+LaTeX2e <2018-12-01>
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (class//thesis.sty
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
+"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
+"
+Package: babel 2019/04/01 3.28 The Babel package
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.de
+f"
+File: switch.def 2019/04/01 3.28 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
+"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\eng
+lish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
+"
+File: babel.def 2019/04/01 3.28 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.
+def")
+\bbl@dirlevel=\count90
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
+ty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.s
+ty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.s
+ty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.st
+y"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks18
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty
+"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks27
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.
+sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts
+.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
+.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.
+sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex
+.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks28
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
+.cfg"))
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blindte
+xt.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count106
+\c@Blindtext=\count107
+\c@blind@countparstart=\count108
+\blind@countxx=\count109
+\blindtext@numBlindtext=\count110
+\blind@countyy=\count111
+\c@blindlist=\count112
+\c@blindlistlevel=\count113
+\c@blindlist@level=\count114
+\blind@listitem=\count115
+\c@blind@listcount=\count116
+\c@blind@levelcount=\count117
+\blind@mathformula=\count118
+\blind@Mathformula=\count119
+\c@blind@randomcount=\count120
+\c@blind@randommax=\count121
+\c@blind@pangramcount=\count122
+\c@blind@pangrammax=\count123
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.st
+y"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty
+"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\colo
+r.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref
+.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub
+-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub
+-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.
+sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoption
+s.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen123
+\Hy@linkcounter=\count124
+\Hy@pagecounter=\count125
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.d
+ef"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count126
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref
+.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count127
+ ("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen124
+\Fld@menulength=\count128
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count129
+\c@Item=\count130
+\c@Hfootnote=\count131
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.
+def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count132
+\c@bookmark@seq@number=\count133
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfil
+echeck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 56.
+   defining Unicode char U+00A0 (decimal 160)
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace
+.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+
+LaTeX Warning: Unused global option(s):
+    [letter].
+
+(thesis_template.aux (chapters/format/cover.aux) (chapters/format/commitee.aux)
+(chapters/format/declaration_authorship.aux) (chapters/content/dedicatory.aux)
+(chapters/content/acknowledgments.aux) (chapters/content/abstract.aux)
+(chapters/content/introduction.aux) (chapters/content/background.aux)
+(chapters/content/materials_and_methods.aux) (chapters/content/results.aux)
+(chapters/content/conclusions_future_work.aux) (chapters/content/vita.aux))
+\openout1 = `thesis_template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 98.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
+pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen127
+\scratchbox=\box29
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen128
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks30
+)
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(93.95122pt, 463.97328pt, 56.3705pt)
+* v-part:(T,H,B)=(86.72377pt, 621.52245pt, 86.72377pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=463.97328pt
+* \textheight=621.52245pt
+* \oddsidemargin=21.68123pt
+* \evensidemargin=21.68123pt
+* \topmargin=-22.54622pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring ON on input line 98.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.
+sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettit
+lestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count140
+)
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
+ (thesis_template.out) (thesis_template.out)
+\@outlinefile=\write3
+\openout3 = `thesis_template.out'.
+
+\openout2 = `chapters/format/cover.aux'.
+
+
+(chapters/format/cover.tex
+<images//format/logo_TEC.png, id=195, 60.5478pt x 28.04076pt>
+File: images//format/logo_TEC.png Graphic file (type png)
+<use images//format/logo_TEC.png>
+Package pdftex.def Info: images//format/logo_TEC.png  used on input line 33.
+(pdftex.def)             Requested size: 324.77988pt x 150.45166pt.
+) [1
+
+
+{C:/Users/Javier/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images//
+format/logo_TEC.png>]
+\openout2 = `chapters/format/commitee.aux'.
+
+
+(chapters/format/commitee.tex
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 39.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 39.
+
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 39.
+
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+ ("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) [2
+
+
+]
+\openout2 = `chapters/format/declaration_authorship.aux'.
+
+ (chapters/format/declaration_authorship.tex
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 34.
+
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 34.
+)
+[3
+
+
+]
+\openout2 = `chapters/content/dedicatory.aux'.
+
+ (chapters/content/dedicatory.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+) [1
+
+
+]
+\openout2 = `chapters/content/acknowledgments.aux'.
+
+ (chapters/content/acknowledgments.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+[2
+
+
+]) [3]
+\openout2 = `chapters/content/abstract.aux'.
+
+ (chapters/content/abstract.tex) [4
+
+
+
+] (thesis_template.lof [5
+
+
+] [6]
+Underfull \hbox (badness 1527) in paragraph at lines 33--33
+ [][] [][][]\OT1/lmr/bx/n/12 ROC Curves for the FRESA.CAD Bench-mark-ing Clas-s
+i-fiers 
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+ [][] [][][]\OT1/lmr/bx/n/12 Heatmap pre-dic-tion com-par-i-son be-tween FRESA.
+CAD 
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 36--36
+ [][] [][][]\OT1/lmr/bx/n/12 Balanced Er-ror, Ac-cu-racy and AUC of the FRESA.C
+AD 
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 40--40
+ [][] [][][]\OT1/lmr/bx/n/12 Validation ROC Curves for the FRESA.CAD Bench-mark
+-ing 
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 41--41
+ [][] [][][]\OT1/lmr/bx/n/12 Validation ROC Curves for the FRESA.CAD Bench-mark
+-ing 
+ []
+
+[8]
+Underfull \hbox (badness 5563) in paragraph at lines 43--43
+ [][] [][][]\OT1/lmr/bx/n/12 Validation ROC AUC, Sen-si-tiv-ity and Speci-ficit
+y of the 
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 43--43
+ \OT1/lmr/bx/n/12 FRESA.CAD Fil-ter com-bi-na-tions \OT1/lmr/m/n/12 Com-par-i-s
+on the ROC AUC, 
+ []
+
+)
+\tf@lof=\write4
+\openout4 = `thesis_template.lof'.
+
+ [9] (thesis_template.lot)
+\tf@lot=\write5
+\openout5 = `thesis_template.lot'.
+
+ [10
+
+] (thesis_template.toc [11
+
+])
+\tf@toc=\write6
+\openout6 = `thesis_template.toc'.
+
+ [12]
+\openout2 = `chapters/content/introduction.aux'.
+
+
+(chapters/content/introduction.tex
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \newpage
+              [1
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \newpage
+              [2]pdfTeX warning (ext4): destination with the same identifier (n
+ame{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 C
+      onsidering the limitations in size of the ADNI dataset, to assess the ...
+[3] [4] [5] [6] [7] [8] [9]) [10]
+\openout2 = `chapters/content/background.aux'.
+
+ (chapters/content/background.tex
+Chapter 2.
+[11
+
+
+
+] [12]
+<images/background/muts.jpg, id=686, 943.525pt x 255.95625pt>
+File: images/background/muts.jpg Graphic file (type jpg)
+<use images/background/muts.jpg>
+Package pdftex.def Info: images/background/muts.jpg  used on input line 29.
+(pdftex.def)             Requested size: 289.07999pt x 78.41998pt.
+ [13 <./images/background/muts.jpg>]
+<images/background/ld.jpg, id=697, 204.765pt x 290.5254pt>
+File: images/background/ld.jpg Graphic file (type jpg)
+<use images/background/ld.jpg>
+Package pdftex.def Info: images/background/ld.jpg  used on input line 47.
+(pdftex.def)             Requested size: 289.09984pt x 361.3782pt.
+ [14] [15 <./images/background/ld.jpg>] [16]
+<images/background/prs.png, id=720, 789.70032pt x 633.11531pt>
+File: images/background/prs.png Graphic file (type png)
+<use images/background/prs.png>
+Package pdftex.def Info: images/background/prs.png  used on input line 73.
+(pdftex.def)             Requested size: 216.81pt x 173.82225pt.
+<images/background/ldpred.png, id=726, 365.86688pt x 350.81062pt>
+File: images/background/ldpred.png Graphic file (type png)
+<use images/background/ldpred.png>
+Package pdftex.def Info: images/background/ldpred.png  used on input line 85.
+(pdftex.def)             Requested size: 216.81pt x 207.88646pt.
+ [17
+
+] [18 <./images/background/prs.png> <./images/background/ldpred.png>]
+<images/background/gr1.jpg, id=743, 291.63823pt x 186.11124pt>
+File: images/background/gr1.jpg Graphic file (type jpg)
+<use images/background/gr1.jpg>
+Package pdftex.def Info: images/background/gr1.jpg  used on input line 101.
+(pdftex.def)             Requested size: 289.07999pt x 184.48637pt.
+ [19
+
+] [20 <./images/background/gr1.jpg>]
+<images/background/genad.jpg, id=760, 385.44pt x 239.9364pt>
+File: images/background/genad.jpg Graphic file (type jpg)
+<use images/background/genad.jpg>
+Package pdftex.def Info: images/background/genad.jpg  used on input line 120.
+(pdftex.def)             Requested size: 289.07999pt x 179.95184pt.
+ [21 <./images/background/genad.jpg>] [22]
+<images/background/svm.png, id=776, 839.135pt x 560.0925pt>
+File: images/background/svm.png Graphic file (type png)
+<use images/background/svm.png>
+Package pdftex.def Info: images/background/svm.png  used on input line 145.
+(pdftex.def)             Requested size: 361.34999pt x 241.18547pt.
+ [23
+
+]
+<images/background/rf.png, id=786, 779.91376pt x 360.34625pt>
+File: images/background/rf.png Graphic file (type png)
+<use images/background/rf.png>
+Package pdftex.def Info: images/background/rf.png  used on input line 156.
+(pdftex.def)             Requested size: 361.34999pt x 166.95444pt.
+ [24 <./images/background/svm.png>] [25 <./images/background/rf.png (PNG copy)>
+]
+<images/background/perceptron.png, id=801, 624.3325pt x 414.54875pt>
+File: images/background/perceptron.png Graphic file (type png)
+<use images/background/perceptron.png>
+Package pdftex.def Info: images/background/perceptron.png  used on input line 1
+68.
+(pdftex.def)             Requested size: 361.34999pt x 239.93872pt.
+ [26
+
+ <./images/background/perceptron.png>]
+<images/background/deepnet.png, id=811, 853.1875pt x 597.23125pt>
+File: images/background/deepnet.png Graphic file (type png)
+<use images/background/deepnet.png>
+Package pdftex.def Info: images/background/deepnet.png  used on input line 178.
+
+(pdftex.def)             Requested size: 361.34999pt x 252.94963pt.
+ [27] [28 <./images/background/deepnet.png>] [29] [30]
+<images/background/fresaRCV.png, id=843, 721.69624pt x 953.5625pt>
+File: images/background/fresaRCV.png Graphic file (type png)
+<use images/background/fresaRCV.png>
+Package pdftex.def Info: images/background/fresaRCV.png  used on input line 240
+.
+(pdftex.def)             Requested size: 289.07999pt x 381.9566pt.
+<images/background/FresaBinBen.png, id=847, 709.65125pt x 878.28125pt>
+File: images/background/FresaBinBen.png Graphic file (type png)
+<use images/background/FresaBinBen.png>
+Package pdftex.def Info: images/background/FresaBinBen.png  used on input line 
+250.
+(pdftex.def)             Requested size: 289.07999pt x 357.77919pt.
+ [31] [32 <./images/background/fresaRCV.png>]
+[33 <./images/background/FresaBinBen.png>]
+<images/background/predHum.jpg, id=869, 385.44pt x 448.5558pt>
+File: images/background/predHum.jpg Graphic file (type jpg)
+<use images/background/predHum.jpg>
+Package pdftex.def Info: images/background/predHum.jpg  used on input line 270.
+
+(pdftex.def)             Requested size: 361.34999pt x 420.52002pt.
+ [34
+
+] [35 <./images/background/predHum.jpg>]
+<images/background/predeff.jpg, id=884, 244.2726pt x 299.1978pt>
+File: images/background/predeff.jpg Graphic file (type jpg)
+<use images/background/predeff.jpg>
+Package pdftex.def Info: images/background/predeff.jpg  used on input line 279.
+
+(pdftex.def)             Requested size: 289.07999pt x 354.1095pt.
+ [36
+
+ <./images/background/predeff.jpg>]
+<images/background/gr2.jpg, id=897, 289.08pt x 133.9404pt>
+File: images/background/gr2.jpg Graphic file (type jpg)
+<use images/background/gr2.jpg>
+Package pdftex.def Info: images/background/gr2.jpg  used on input line 296.
+(pdftex.def)             Requested size: 361.36674pt x 216.8126pt.
+ [37]
+<images/background/gr3.jpg, id=908, 217.2918pt x 395.5578pt>
+File: images/background/gr3.jpg Graphic file (type jpg)
+<use images/background/gr3.jpg>
+Package pdftex.def Info: images/background/gr3.jpg  used on input line 304.
+(pdftex.def)             Requested size: 217.29124pt x 395.55682pt.
+ [38 <./images/background/gr2.jpg>]) [39] [40 <./images/background/gr3.jpg>]
+\openout2 = `chapters/content/materials_and_methods.aux'.
+
+
+(chapters/content/materials_and_methods.tex
+Chapter 3.
+[41
+
+
+
+] [42] [43] [44]
+Underfull \hbox (badness 1077) in paragraph at lines 54--54
+[]\OT1/lmr/bx/n/17.28 Random For-est and Sup-port Vec-tor Ma-chine
+ []
+
+[45] [46] [47] [48] [49]) [50]
+\openout2 = `chapters/content/results.aux'.
+
+ (chapters/content/results.tex
+Chapter 4.
+[51
+
+
+
+]
+<images/results/AdniCV.png, id=992, 2928.9425pt x 1320.935pt>
+File: images/results/AdniCV.png Graphic file (type png)
+<use images/results/AdniCV.png>
+Package pdftex.def Info: images/results/AdniCV.png  used on input line 16.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+<images/results/AdniSplit2.png, id=993, 2928.9425pt x 1419.3025pt>
+File: images/results/AdniSplit2.png Graphic file (type png)
+<use images/results/AdniSplit2.png>
+Package pdftex.def Info: images/results/AdniSplit2.png  used on input line 24.
+(pdftex.def)             Requested size: 289.07999pt x 140.07608pt.
+ [52 <./images/results/AdniCV.png> <./images/results/AdniSplit2.png>]
+<images/results/ImpactSim.png, id=1001, 2928.9425pt x 1320.935pt>
+File: images/results/ImpactSim.png Graphic file (type png)
+<use images/results/ImpactSim.png>
+Package pdftex.def Info: images/results/ImpactSim.png  used on input line 37.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+<images/results/SimComplete.png, id=1002, 2928.9425pt x 1320.935pt>
+File: images/results/SimComplete.png Graphic file (type png)
+<use images/results/SimComplete.png>
+Package pdftex.def Info: images/results/SimComplete.png  used on input line 44.
+
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+<images/results/Sim500.png, id=1003, 2928.9425pt x 1320.935pt>
+File: images/results/Sim500.png Graphic file (type png)
+<use images/results/Sim500.png>
+Package pdftex.def Info: images/results/Sim500.png  used on input line 52.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+<images/results/Sim10000.png, id=1004, 2928.9425pt x 1320.935pt>
+File: images/results/Sim10000.png Graphic file (type png)
+<use images/results/Sim10000.png>
+Package pdftex.def Info: images/results/Sim10000.png  used on input line 59.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+
+[53 <./images/results/ImpactSim.png>]
+
+LaTeX Warning: Text page 54 contains only floats.
+
+[54 <./images/results/SimComplete.png> <./images/results/Sim500.png> <./images/
+results/Sim10000.png>]
+<images/results/ImpactDataAug.png, id=1017, 2928.9425pt x 1320.935pt>
+File: images/results/ImpactDataAug.png Graphic file (type png)
+<use images/results/ImpactDataAug.png>
+Package pdftex.def Info: images/results/ImpactDataAug.png  used on input line 7
+1.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+<images/results/DataAugComplete.png, id=1018, 2928.9425pt x 1320.935pt>
+File: images/results/DataAugComplete.png Graphic file (type png)
+<use images/results/DataAugComplete.png>
+Package pdftex.def Info: images/results/DataAugComplete.png  used on input line
+ 78.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+ [55
+
+ <./images/results/ImpactDataAug.png>]
+<images/results/ImpactDataAug2.png, id=1024, 2928.9425pt x 1320.935pt>
+File: images/results/ImpactDataAug2.png Graphic file (type png)
+<use images/results/ImpactDataAug2.png>
+Package pdftex.def Info: images/results/ImpactDataAug2.png  used on input line 
+88.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+<images/results/DataAugComplete2.png, id=1025, 2928.9425pt x 1320.935pt>
+File: images/results/DataAugComplete2.png Graphic file (type png)
+<use images/results/DataAugComplete2.png>
+Package pdftex.def Info: images/results/DataAugComplete2.png  used on input lin
+e 95.
+(pdftex.def)             Requested size: 289.07999pt x 130.36783pt.
+ [56 <./images/results/DataAugComplete.png> <./images/results/ImpactDataAug2.pn
+g>]
+<images/results/fresaCurves1.png, id=1032, 578.16pt x 578.16pt>
+File: images/results/fresaCurves1.png Graphic file (type png)
+<use images/results/fresaCurves1.png>
+Package pdftex.def Info: images/results/fresaCurves1.png  used on input line 10
+7.
+(pdftex.def)             Requested size: 216.81pt x 216.80946pt.
+<images/results/fresaCurves2.png, id=1033, 578.16pt x 578.16pt>
+File: images/results/fresaCurves2.png Graphic file (type png)
+<use images/results/fresaCurves2.png>
+Package pdftex.def Info: images/results/fresaCurves2.png  used on input line 11
+4.
+(pdftex.def)             Requested size: 216.81pt x 216.80946pt.
+
+Underfull \hbox (badness 1325) in paragraph at lines 116--116
+\OT1/lmr/bx/n/12 (Con-tin-ued) \OT1/lmr/m/n/12 ROC Curves ob-tained us-ing SVM,
+ KNN and the En-sem-ble of the
+ []
+
+[57 <./images/results/DataAugComplete2.png>]
+
+LaTeX Warning: Text page 58 contains only floats.
+
+[58 <./images/results/fresaCurves1.png> <./images/results/fresaCurves2.png (PNG
+ copy)>]
+<images/results/fresaHM.png, id=1045, 600.74437pt x 419.31656pt>
+File: images/results/fresaHM.png Graphic file (type png)
+<use images/results/fresaHM.png>
+Package pdftex.def Info: images/results/fresaHM.png  used on input line 123.
+(pdftex.def)             Requested size: 216.81pt x 151.33133pt.
+<images/results/fresaJac.png, id=1046, 578.16pt x 433.62pt>
+File: images/results/fresaJac.png Graphic file (type png)
+<use images/results/fresaJac.png>
+Package pdftex.def Info: images/results/fresaJac.png  used on input line 134.
+(pdftex.def)             Requested size: 144.54pt x 108.40472pt.
+<images/results/fresaFeatures.png, id=1047, 578.16pt x 433.62pt>
+File: images/results/fresaFeatures.png Graphic file (type png)
+<use images/results/fresaFeatures.png>
+Package pdftex.def Info: images/results/fresaFeatures.png  used on input line 1
+35.
+(pdftex.def)             Requested size: 144.54pt x 108.40472pt.
+ [59 <./images/results/fresaHM.png (PNG copy)>] [60 <./images/results/fresaJac.
+png> <./images/results/fresaFeatures.png>]
+<images/results/fresaBE.png, id=1058, 578.16pt x 433.62pt>
+File: images/results/fresaBE.png Graphic file (type png)
+<use images/results/fresaBE.png>
+Package pdftex.def Info: images/results/fresaBE.png  used on input line 144.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaAcc.png, id=1059, 578.16pt x 433.62pt>
+File: images/results/fresaAcc.png Graphic file (type png)
+<use images/results/fresaAcc.png>
+Package pdftex.def Info: images/results/fresaAcc.png  used on input line 145.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaAUC.png, id=1060, 578.16pt x 433.62pt>
+File: images/results/fresaAUC.png Graphic file (type png)
+<use images/results/fresaAUC.png>
+Package pdftex.def Info: images/results/fresaAUC.png  used on input line 146.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaConc.png, id=1061, 578.16pt x 433.62pt>
+File: images/results/fresaConc.png Graphic file (type png)
+<use images/results/fresaConc.png>
+Package pdftex.def Info: images/results/fresaConc.png  used on input line 154.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaSens.png, id=1062, 578.16pt x 433.62pt>
+File: images/results/fresaSens.png Graphic file (type png)
+<use images/results/fresaSens.png>
+Package pdftex.def Info: images/results/fresaSens.png  used on input line 155.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaSpec.png, id=1063, 578.16pt x 433.62pt>
+File: images/results/fresaSpec.png Graphic file (type png)
+<use images/results/fresaSpec.png>
+Package pdftex.def Info: images/results/fresaSpec.png  used on input line 156.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+ [61
+
+ <./images/results/fresaBE.png> <./images/results/fresaAcc.png> <./images/resul
+ts/fresaAUC.png>]
+<images/results/fresaRadar.png, id=1071, 578.16pt x 289.08pt>
+File: images/results/fresaRadar.png Graphic file (type png)
+<use images/results/fresaRadar.png>
+Package pdftex.def Info: images/results/fresaRadar.png  used on input line 165.
+
+(pdftex.def)             Requested size: 289.07999pt x 144.53964pt.
+
+[62 <./images/results/fresaConc.png> <./images/results/fresaSens.png> <./images
+/results/fresaSpec.png>]
+<images/results/fresaSNPs.png, id=1079, 578.16pt x 433.62pt>
+File: images/results/fresaSNPs.png Graphic file (type png)
+<use images/results/fresaSNPs.png>
+Package pdftex.def Info: images/results/fresaSNPs.png  used on input line 176.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+ [63 <./images/results/fresaRadar.png (PNG copy)>]
+[64 <./images/results/fresaSNPs.png>]
+<images/results/fresaCurves1Val.png, id=1090, 578.16pt x 578.16pt>
+File: images/results/fresaCurves1Val.png Graphic file (type png)
+<use images/results/fresaCurves1Val.png>
+Package pdftex.def Info: images/results/fresaCurves1Val.png  used on input line
+ 208.
+(pdftex.def)             Requested size: 216.81pt x 216.80946pt.
+<images/results/fresaCurves2Val.png, id=1091, 578.16pt x 578.16pt>
+File: images/results/fresaCurves2Val.png Graphic file (type png)
+<use images/results/fresaCurves2Val.png>
+Package pdftex.def Info: images/results/fresaCurves2Val.png  used on input line
+ 215.
+(pdftex.def)             Requested size: 216.81pt x 216.80946pt.
+<images/results/fresaBEVal.png, id=1092, 578.16pt x 433.62pt>
+File: images/results/fresaBEVal.png Graphic file (type png)
+<use images/results/fresaBEVal.png>
+Package pdftex.def Info: images/results/fresaBEVal.png  used on input line 224.
+
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaAccVal.png, id=1093, 578.16pt x 433.62pt>
+File: images/results/fresaAccVal.png Graphic file (type png)
+<use images/results/fresaAccVal.png>
+Package pdftex.def Info: images/results/fresaAccVal.png  used on input line 225
+.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaAUCVal.png, id=1094, 578.16pt x 433.62pt>
+File: images/results/fresaAUCVal.png Graphic file (type png)
+<use images/results/fresaAUCVal.png>
+Package pdftex.def Info: images/results/fresaAUCVal.png  used on input line 226
+.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaConcVal.png, id=1095, 578.16pt x 433.62pt>
+File: images/results/fresaConcVal.png Graphic file (type png)
+<use images/results/fresaConcVal.png>
+Package pdftex.def Info: images/results/fresaConcVal.png  used on input line 23
+4.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaSensVal.png, id=1096, 578.16pt x 433.62pt>
+File: images/results/fresaSensVal.png Graphic file (type png)
+<use images/results/fresaSensVal.png>
+Package pdftex.def Info: images/results/fresaSensVal.png  used on input line 23
+5.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+<images/results/fresaSpecVal.png, id=1097, 578.16pt x 433.62pt>
+File: images/results/fresaSpecVal.png Graphic file (type png)
+<use images/results/fresaSpecVal.png>
+Package pdftex.def Info: images/results/fresaSpecVal.png  used on input line 23
+6.
+(pdftex.def)             Requested size: 361.3491pt x 144.53743pt.
+
+Underfull \hbox (badness 3148) in paragraph at lines 238--238
+[]\OT1/lmr/m/n/12 Figure 4.22: []\OT1/lmr/bx/n/12 Validation ROC AUC, Sen-si-ti
+v-ity and Speci-ficity of the
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 238--238
+\OT1/lmr/bx/n/12 FRESA.CAD Fil-ter com-bi-na-tions \OT1/lmr/m/n/12 Com-par-i-so
+n the ROC AUC, Sen-si-tiv-ity and
+ []
+
+[65]
+
+LaTeX Warning: Text page 66 contains only floats.
+
+[66 <./images/results/fresaCurves1Val.png (PNG copy)> <./images/results/fresaCu
+rves2Val.png (PNG copy)>] [67 <./images/results/fresaBEVal.png> <./images/resul
+ts/fresaAccVal.png> <./images/results/fresaAUCVal.png>] [68 <./images/results/f
+resaConcVal.png> <./images/results/fresaSensVal.png> <./images/results/fresaSpe
+cVal.png>]
+<images/results/fresaSNPsVal.png, id=1120, 578.16pt x 433.62pt>
+File: images/results/fresaSNPsVal.png Graphic file (type png)
+<use images/results/fresaSNPsVal.png>
+Package pdftex.def Info: images/results/fresaSNPsVal.png  used on input line 24
+4.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+ [69
+
+ <./images/results/fresaSNPsVal.png>] [70] [71
+
+] [72] [73])
+[74]
+\openout2 = `chapters/content/conclusions_future_work.aux'.
+
+ (chapters/content/conclusions_future_work.tex
+Chapter 5.
+[75
+
+
+
+] [76] [77]) [78] (thesis_template.bbl
+Chapter 6.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 5.
+("C:\Users\Javier\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 3148) in paragraph at lines 4--6
+[]\OT1/lmr/m/n/12 S. In-stru-ments, ``what-are-genetic-mutation.'' [][]$\OT1/lm
+tt/m/n/12 https : / / www . singerinstruments .
+ []
+
+[79
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+[]\OT1/lmr/m/n/12 S. Raschka, ``Per-cep-tron.'' [][]$\OT1/lmtt/m/n/12 http : / 
+/ rasbt . github . io / mlxtend / user _ guide /
+ []
+
+[80] [81]
+Underfull \hbox (badness 1264) in paragraph at lines 196--201
+\OT1/lmr/m/n/12 J. Dauwels, S. R. Soekadar, S. Mueller, C. Lin-ne-mann, S. A. B
+riden-baugh,
+ []
+
+[82] [83]
+Underfull \hbox (badness 2393) in paragraph at lines 262--270
+\OT1/lmr/m/n/12 and C. H. Phelps, ``The di-ag-no-sis of de-men-tia due to alzhe
+imer&#x2019;s
+ []
+
+[84] [85]
+Underfull \hbox (badness 8170) in paragraph at lines 378--380
+[]\OT1/lmr/m/n/12 L.-P. Lemieux Per-reauls, ``Py-plink.'' [][]$\OT1/lmtt/m/n/12
+ https : / / lemieuxl . github . io / pyplink /
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 399--474
+\OT1/lmr/m/n/12 Stutz, K. Beal, A. Datta, J. Her-rero, G. R. S. Ritchie, D. Ze
+rbino, P. C.
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 399--474
+\OT1/lmr/m/n/12 F. M. De La Vega (Prin-ci-pal In-ves-ti-ga-tor), J. K. Byrnes, 
+A. W. Car-roll,
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 399--474
+\OT1/lmr/m/n/12 M. K. De-Gorter, P. Lacroute, B. K. Maples, A. R. Mar-tin, A. M
+oreno-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 399--474
+\OT1/lmr/m/n/12 S. E. Devine (Prin-ci-pal In-ves-ti-ga-tor), G. R. Abeca-sis (P
+rin-ci-pal In-ves-ti-ga-tor)
+ []
+
+[86] [87] [88]) [89]
+\openout2 = `chapters/content/vita.aux'.
+
+ (chapters/content/vita.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 31.
+) [90
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+ (thesis_template.aux
+(chapters/format/cover.aux) (chapters/format/commitee.aux)
+(chapters/format/declaration_authorship.aux) (chapters/content/dedicatory.aux)
+(chapters/content/acknowledgments.aux) (chapters/content/abstract.aux)
+(chapters/content/introduction.aux) (chapters/content/background.aux)
+(chapters/content/materials_and_methods.aux) (chapters/content/results.aux)
+(chapters/content/conclusions_future_work.aux) (chapters/content/vita.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package rerunfilecheck Info: File `thesis_template.out' has not changed.
+(rerunfilecheck)             Checksum: C4A0290B3BCA4B53F3B4F4605B222A84;3200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+ ) 
+Here is how much of TeX's memory you used:
+ 8610 strings out of 492945
+ 131979 string characters out of 3125809
+ 281574 words of memory out of 3000000
+ 11939 multiletter control sequences out of 15000+200000
+ 60614 words of font info for 57 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,8n,37p,2040b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc
+}{C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.
+enc}{C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
+thit.enc}{C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathsy.enc}<C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmbx12.pfb><C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmmi12.pfb><C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmr10.pfb><C:/Users/Javier/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmr12.pfb><C:/Users/Javier/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Javier/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Javier/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Javier/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Javier/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/Javier/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Javier/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis_template.pdf (105 pages, 7970068 bytes).
+PDF statistics:
+ 1349 PDF objects out of 1440 (max. 8388607)
+ 269 named destinations out of 1000 (max. 500000)
+ 630 words of extra memory for PDF output out of 10000 (max. 10000000)
+

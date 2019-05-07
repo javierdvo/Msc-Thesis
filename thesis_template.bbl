@@ -1,0 +1,518 @@
+\begin{thebibliography}{10}
+
+\bibitem{muts}
+S.~Instruments, ``what-are-genetic-mutation.''
+  \url{https://www.singerinstruments.com/resource/what-are-genetic-mutation/}.
+
+\bibitem{ldfig}
+J.~Chang, R.~Zhong, J.~Tian, J.~Li, K.~Zhai, J.~Ke, J.~Lou, W.~Chen, B.~Zhu,
+  N.~Shen, Y.~Zhang, Y.~Zhu, Y.~Gong, Y.~Yang, Z.~Danyi, X.~Peng, Z.~Zhang,
+  X.~Zhang, K.~Huang, and D.~Lin, ``Exome-wide analyses identify low-frequency
+  variant in cyp26b1 and additional coding variants associated with esophageal
+  squamous cell carcinoma,'' {\em Nature Genetics}, vol.~50, 01 2018.
+
+\bibitem{Consortium2009}
+T.~I.~S. Consortium, S.~M. Purcell, N.~R. Wray, J.~L. Stone, P.~M. Visscher,
+  M.~C. O'Donovan, P.~F. Sullivan, P.~Sklar, S.~M. Purcell~(Leader), D.~M.
+  Ruderfer, A.~McQuillin, D.~W. Morris, C.~T. O'Dushlaine, A.~Corvin, P.~A.
+  Holmans, S.~Macgregor, H.~Gurling, D.~H.~R. Blackwood, N.~J. Craddock,
+  M.~Gill, C.~M. Hultman, G.~K. Kirov, P.~Lichtenstein, W.~J. Muir, M.~J. Owen,
+  C.~N. Pato, E.~M. Scolnick, D.~St~Clair, P.~Sklar~(Leader), N.~M. Williams,
+  L.~Georgieva, I.~Nikolov, N.~Norton, H.~Williams, D.~Toncheva, V.~Milanova,
+  E.~F. Thelander, P.~Sullivan, E.~Kenny, E.~M. Quinn, K.~Choudhury, S.~Datta,
+  J.~Pimm, S.~Thirumalai, V.~Puri, R.~Krasucki, J.~Lawrence, D.~Quested,
+  N.~Bass, C.~Crombie, G.~Fraser, S.~Leh~Kuan, N.~Walker, K.~A. McGhee,
+  B.~Pickard, P.~Malloy, A.~W. Maclean, M.~Van~Beck, M.~T. Pato, H.~Medeiros,
+  F.~Middleton, C.~Carvalho, C.~Morley, A.~Fanous, D.~Conti, J.~A. Knowles,
+  C.~Paz~Ferreira, A.~Macedo, M.~Helena~Azevedo, A.~N. Kirby, M.~A.~R.
+  Ferreira, M.~J. Daly, K.~Chambert, F.~Kuruvilla, S.~B. Gabriel, K.~Ardlie,
+  and J.~L. Moran, ``Common polygenic variation contributes to risk of
+  schizophrenia and bipolar disorder,'' {\em Nature}, vol.~460, pp.~748 EP --,
+  Jul 2009.
+
+\bibitem{Marquez-Luna375337}
+C.~Marquez-Luna, S.~Gazal, P.-R. Loh, N.~Furlotte, A.~Auton, and A.~L. Price,
+  ``Modeling functional enrichment improves polygenic prediction accuracy in uk
+  biobank and 23andme data sets,'' {\em bioRxiv}, 2018.
+
+\bibitem{Mudher2002}
+A.~Mudher and S.~Lovestone, ``{Alzheimer's disease-do tauists and baptists
+  finally shake hands?},'' {\em Trends in neurosciences}, vol.~25, pp.~22--6,
+  jan 2002.
+
+\bibitem{KARCH201543}
+C.~M. Karch and A.~M. Goate, ``Alzheimer’s disease risk genes and mechanisms
+  of disease pathogenesis,'' {\em Biological Psychiatry}, vol.~77, no.~1,
+  pp.~43 -- 51, 2015.
+\newblock The New Psychiatric Genetics: Toward Next Generation Diagnosis and
+  Treatment.
+
+\bibitem{svm1}
+E.~García-Gonzalo, Z.~Fernández-Muñiz, P.~J. Garcia~Nieto,
+  A.~Bernardo~Sánchez, and M.~Menéndez, ``Hard-rock stability analysis for
+  span design in entry-type excavations with learning classifiers,'' {\em
+  Materials}, vol.~9, p.~531, 06 2016.
+
+\bibitem{rf}
+A.~Isied and H.~Tamimi, ``Using random forest (rf) as a transfer learning
+  classifier for detecting error-related potential (errp) within the context of
+  p300-speller,'' 09 2015.
+
+\bibitem{percep}
+S.~Raschka, ``Perceptron.''
+  \url{http://rasbt.github.io/mlxtend/user_guide/classifier/Perceptron/}, 2014.
+
+\bibitem{LeCun2015}
+Y.~LeCun, Y.~Bengio, and G.~Hinton, ``{Deep learning},'' {\em Nature},
+  vol.~521, pp.~436--444, may 2015.
+
+\bibitem{fresa}
+J.~Taméz~Peña, ``Fresa.cad.''
+  \url{https://cran.r-project.org/web/packages/FRESA.CAD/index.html}, 2018.
+
+\bibitem{Sundaram2018}
+L.~Sundaram, H.~Gao, S.~R. Padigepati, J.~F. McRae, Y.~Li, J.~A. Kosmicki,
+  N.~Fritzilas, J.~Hakenberg, A.~Dutta, J.~Shon, J.~Xu, S.~Batzoglou, X.~Li,
+  and K.~K.-H. Farh, ``Predicting the clinical impact of human mutation with
+  deep neural networks,'' {\em Nature Genetics}, vol.~50, no.~8,
+  pp.~1161--1170, 2018.
+
+\bibitem{Zhou2017}
+T.~Zhou, K.-H. Thung, X.~Zhu, and D.~Shen, ``{Feature Learning and Fusion of
+  Multimodality Neuroimaging and Genetic Data for Multi-status Dementia
+  Diagnosis.},'' {\em Machine learning in medical imaging. MLMI (Workshop)},
+  vol.~10541, pp.~132--140, sep 2017.
+
+\bibitem{Suk2014}
+H.-I. Suk, S.-W. Lee, D.~Shen, and {Alzheimer's Disease Neuroimaging
+  Initiative}, ``{Hierarchical feature representation and multimodal fusion
+  with deep learning for AD/MCI diagnosis},'' {\em NeuroImage}, vol.~101,
+  pp.~569--582, nov 2014.
+
+\bibitem{Liu2015}
+S.~Liu, S.~Liu, W.~Cai, H.~Che, S.~Pujol, R.~Kikinis, D.~Feng, M.~J. Fulham,
+  and ADNI, ``{Multimodal Neuroimaging Feature Learning for Multiclass
+  Diagnosis of Alzheimer's Disease},'' {\em IEEE Transactions on Biomedical
+  Engineering}, vol.~62, pp.~1132--1140, apr 2015.
+
+\bibitem{Ballard2011}
+C.~Ballard, S.~Gauthier, A.~Corbett, C.~Brayne, D.~Aarsland, and E.~Jones,
+  ``{Alzheimer's disease},'' {\em The Lancet}, vol.~377, pp.~1019--1031, mar
+  2011.
+
+\bibitem{SHAO20171}
+W.~Shao, D.~Peng, and X.~Wang, ``Genetics of alzheimer‚Äôs disease: From
+  pathogenesis to clinical usage,'' {\em Journal of Clinical Neuroscience},
+  vol.~45, pp.~1 -- 8, 2017.
+
+\bibitem{Li2017}
+J.~Li, Q.~Zhang, F.~Chen, X.~Meng, W.~Liu, D.~Chen, J.~Yan, S.~Kim, L.~Wang,
+  W.~Feng, A.~J. Saykin, H.~Liang, and L.~Shen, ``Genome-wide association and
+  interaction studies of csf t-tau/aŒ$\leq$42 ratio in adni cohort,'' {\em
+  Neurobiology of Aging}, vol.~57, pp.~247.e1 -- 247.e8, 2017.
+
+\bibitem{biogen2016}
+J.~Sevigny, P.~Chiao, T.~Bussi{\`e}re, P.~H. Weinreb, L.~Williams, M.~Maier,
+  R.~Dunstan, S.~Salloway, T.~Chen, Y.~Ling, J.~O'Gorman, F.~Qian, M.~Arastu,
+  M.~Li, S.~Chollate, M.~S. Brennan, O.~Quintero-Monzon, R.~H. Scannevin, H.~M.
+  Arnold, T.~Engber, K.~Rhodes, J.~Ferrero, Y.~Hang, A.~Mikulskis, J.~Grimm,
+  C.~Hock, R.~M. Nitsch, and A.~Sandrock, ``The antibody aducanumab reduces ab
+  plaques in alzheimer's disease,'' {\em Nature}, vol.~537, pp.~50 EP --, Aug
+  2016.
+\newblock Article.
+
+\bibitem{PANPALLIATES2016124}
+M.~P. Ates, Y.~Karaman, S.~Guntekin, and M.~Ergun, ``Analysis of genetics and
+  risk factors of alzheimer‚Äôs disease,'' {\em Neuroscience}, vol.~325,
+  pp.~124 -- 131, 2016.
+
+\bibitem{Manolio2009}
+T.~A. Manolio, F.~S. Collins, N.~J. Cox, D.~B. Goldstein, L.~A. Hindorff, D.~J.
+  Hunter, M.~I. McCarthy, E.~M. Ramos, L.~R. Cardon, A.~Chakravarti, J.~H. Cho,
+  A.~E. Guttmacher, A.~Kong, L.~Kruglyak, E.~Mardis, C.~N. Rotimi, M.~Slatkin,
+  D.~Valle, A.~S. Whittemore, M.~Boehnke, A.~G. Clark, E.~E. Eichler,
+  G.~Gibson, J.~L. Haines, T.~F.~C. Mackay, S.~A. McCarroll, and P.~M.
+  Visscher, ``Finding the missing heritability of complex diseases,'' {\em
+  Nature}, vol.~461, pp.~747 EP --, 10 2009.
+
+\bibitem{MacArthur2017}
+J.~MacArthur, E.~Bowler, M.~Cerezo, L.~Gil, P.~Hall, E.~Hastings, H.~Junkins,
+  A.~McMahon, A.~Milano, J.~Morales, Z.~M. Pendlington, D.~Welter, T.~Burdett,
+  L.~Hindorff, P.~Flicek, F.~Cunningham, and H.~Parkinson, ``The new nhgri-ebi
+  catalog of published genome-wide association studies (gwas catalog),'' {\em
+  Nucleic Acids Research}, vol.~45, no.~D1, pp.~D896--D901, 2017.
+
+\bibitem{Ridge2013}
+P.~G. Ridge, S.~Mukherjee, P.~K. Crane, J.~S.~K. Kauwe, and A.~D.~G.
+  Consortium, ``Alzheimer‚Äôs disease: Analyzing the missing
+  heritability,'' {\em PLOS ONE}, vol.~8, 11 2013.
+
+\bibitem{Estrada2018}
+K.~Estrada, {\em Translating Human Genetics into Novel Drug Targets},
+  pp.~277--290.
+\newblock New York, NY: Springer New York, 2018.
+
+\bibitem{Freudenberg2018}
+Y.~Freudenberg-Hua, W.~Li, and P.~Davies, ``The role of genetics in advancing
+  precision medicine for alzheimer‚Äôs disease‚Äîa narrative review,''
+  {\em Frontiers in Medicine}, vol.~5, p.~108, 2018.
+
+\bibitem{Raghavan2017}
+N.~Raghavan and G.~Tosto, ``Genetics of alzheimer's disease: the importance of
+  polygenic and epistatic components,'' {\em Current Neurology and Neuroscience
+  Reports}, vol.~17, no.~10, p.~78, 2017.
+
+\bibitem{Yang2010}
+J.~Yang, B.~Benyamin, B.~P. McEvoy, S.~Gordon, A.~K. Henders, D.~R. Nyholt,
+  P.~A. Madden, A.~C. Heath, N.~G. Martin, G.~W. Montgomery, M.~E. Goddard, and
+  P.~M. Visscher, ``Common snps explain a large proportion of the heritability
+  for human height,'' {\em Nature Genetics}, vol.~42, pp.~565 EP --, Jun 2010.
+
+\bibitem{Eichler2010}
+E.~E. Eichler, J.~Flint, G.~Gibson, A.~Kong, S.~M. Leal, J.~H. Moore, and J.~H.
+  Nadeau, ``Missing heritability and strategies for finding the underlying
+  causes of complex disease,'' {\em Nature Reviews Genetics}, vol.~11, pp.~446
+  EP --, 06 2010.
+
+\bibitem{Schmidhuber2015}
+J.~Schmidhuber, ``{Deep learning in neural networks: An overview},'' {\em
+  Neural Networks}, vol.~61, pp.~85--117, jan 2015.
+
+\bibitem{Jessen2014}
+F.~Jessen and R.~Dodel, ``Pr{\"a}diktion der alzheimer-demenz,'' {\em Der
+  Nervenarzt}, vol.~85, pp.~1233--1237, Oct 2014.
+
+\bibitem{CHEN2012323}
+X.~Chen and H.~Ishwaran, ``Random forests for genomic data analysis,'' {\em
+  Genomics}, vol.~99, no.~6, pp.~323 -- 329, 2012.
+
+\bibitem{peng2003molecular}
+S.~Peng, Q.~Xu, X.~B. Ling, X.~Peng, W.~Du, and L.~Chen, ``Molecular
+  classification of cancer types from microarray data using the combination of
+  genetic algorithms and support vector machines,'' {\em FEBS letters},
+  vol.~555, no.~2, pp.~358--362, 2003.
+
+\bibitem{LASKE2015561}
+C.~Laske, H.~R. Sohrabi, S.~M. Frost, K.~L. de~Ipiña, P.~Garrard, M.~Buscema,
+  J.~Dauwels, S.~R. Soekadar, S.~Mueller, C.~Linnemann, S.~A. Bridenbaugh,
+  Y.~Kanagasingam, R.~N. Martins, and S.~E. O'Bryant, ``Innovative diagnostic
+  tools for early detection of alzheimer's disease,'' {\em Alzheimer's \&
+  Dementia}, vol.~11, no.~5, pp.~561 -- 578, 2015.
+
+\bibitem{MarkandMaryStevensNeuroImagingInstitute}
+{Mark and Mary Stevens NeuroImaging Institute}, ``{ADNI | Alzheimer's Disease
+  Neuroimaging Initiative}.''
+
+\bibitem{Orru2012}
+G.~Orr{\`{u}}, W.~Pettersson-Yeo, A.~F. Marquand, G.~Sartori, and A.~Mechelli,
+  ``{Using Support Vector Machine to identify imaging biomarkers of
+  neurological and psychiatric disease: A critical review},'' {\em Neuroscience
+  {\&} Biobehavioral Reviews}, vol.~36, no.~4, pp.~1140--1152, 2012.
+
+\bibitem{Kloppel2008}
+S.~Kl{\"{o}}ppel, C.~M. Stonnington, C.~Chu, B.~Draganski, R.~I. Scahill, J.~D.
+  Rohrer, N.~C. Fox, J.~{Jack Clifford R.}, J.~Ashburner, and R.~S.~J.
+  Frackowiak, ``{Automatic classification of MR scans in Alzheimer's
+  disease},'' {\em Brain}, vol.~131, pp.~681--689, mar 2008.
+
+\bibitem{Long2017}
+X.~Long, L.~Chen, C.~Jiang, L.~Zhang, and A.~D.~N. Initiative, ``{Prediction
+  and classification of Alzheimer disease based on quantification of MRI
+  deformation},'' {\em PLOS ONE}, vol.~12, p.~e0173372, mar 2017.
+
+\bibitem{LeCun2017}
+E.~E. Eichler, J.~Flint, G.~Gibson, A.~Kong, S.~M. Leal, J.~H. Moore, and J.~H.
+  Nadeau, ``Missing heritability and strategies for finding the underlying
+  causes of complex disease,'' {\em Nature Reviews Genetics}, vol.~11, pp.~446
+  EP --, 06 2010.
+
+\bibitem{Esteva2017}
+A.~Esteva, B.~Kuprel, R.~A. Novoa, J.~Ko, S.~M. Swetter, H.~M. Blau, and
+  S.~Thrun, ``Dermatologist-level classification of skin cancer with deep
+  neural networks,'' {\em Nature}, vol.~542, pp.~115 EP --, 01 2017.
+
+\bibitem{nussbaum_mcinnes_willard_2016}
+R.~L. Nussbaum, R.~R. McInnes, and H.~Willard, {\em Thompson \& Thompson
+  Genetics in Medicine}.
+\newblock Elsevier, 2016.
+
+\bibitem{pers}
+F.~Dudbridge, ``Power and predictive accuracy of polygenic risk scores,'' {\em
+  PLOS Genetics}, vol.~9, pp.~1--17, 03 2013.
+
+\bibitem{Torkamani2018}
+A.~Torkamani, N.~E. Wineinger, and E.~J. Topol, ``The personal and clinical
+  utility of polygenic risk scores,'' {\em Nature Reviews Genetics}, vol.~19,
+  no.~9, pp.~581--590, 2018.
+
+\bibitem{ldpreeed}
+B.~Vilhjalmsson, J.~Yang, H.~Finucane, A.~Gusev, S.~Lindstrom, S.~Ripke,
+  G.~Genovese, P.-R. Loh, G.~Bhatia, R.~Do, T.~Hayeck, H.-H. Won,
+  S.~Kathiresan, M.~Pato, C.~Pato, R.~Tamimi, E.~Stahl, N.~Zaitlen,
+  B.~Pasaniuc, and A.~L.~Price, ``Modeling linkage disequilibrium increases
+  accuracy of polygenic risk scores,'' {\em The American Journal of Human
+  Genetics}, vol.~97, pp.~576--592, 10 2015.
+
+\bibitem{Scheltens2016}
+P.~Scheltens, K.~Blennow, M.~M.~B. Breteler, B.~de~Strooper, G.~B. Frisoni,
+  S.~Salloway, and W.~M. {Van der Flier}, ``{Alzheimer's disease},'' {\em The
+  Lancet}, vol.~388, pp.~505--517, jul 2016.
+
+\bibitem{McKhann2011}
+G.~M. McKhann, D.~S. Knopman, H.~Chertkow, B.~T. Hyman, C.~R.~J. Jack, C.~H.
+  Kawas, W.~E. Klunk, W.~J. Koroshetz, J.~J. Manly, R.~Mayeux, R.~C. Mohs,
+  J.~C. Morris, M.~N. Rossor, P.~Scheltens, M.~C. Carrillo, B.~Thies,
+  S.~Weintraub, and C.~H. Phelps, ``The diagnosis of dementia due to
+  alzheimer\&\#x2019;s disease: Recommendations from the national institute on
+  aging-alzheimer\&\#x2019;s association workgroups on diagnostic guidelines
+  for alzheimer's disease,'' {\em Alzheimer's \& Dementia: The Journal of the
+  Alzheimer's Association}, vol.~7, pp.~263--269, May 2011.
+
+\bibitem{Boser:1992:TAO:130385.130401}
+B.~E. Boser, I.~M. Guyon, and V.~N. Vapnik, ``A training algorithm for optimal
+  margin classifiers,'' in {\em Proceedings of the Fifth Annual Workshop on
+  Computational Learning Theory}, COLT '92, (New York, NY, USA), pp.~144--152,
+  ACM, 1992.
+
+\bibitem{598994}
+T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd International
+  Conference on Document Analysis and Recognition}, vol.~1, pp.~278--282 vol.1,
+  Aug 1995.
+
+\bibitem{Rosenblatt58theperceptron:}
+F.~Rosenblatt, ``The perceptron: A probabilistic model for information storage
+  and organization in the brain,'' {\em Psychological Review}, pp.~65--386,
+  1958.
+
+\bibitem{Nair:2010:RLU:3104322.3104425}
+V.~Nair and G.~E. Hinton, ``Rectified linear units improve restricted boltzmann
+  machines,'' in {\em Proceedings of the 27th International Conference on
+  International Conference on Machine Learning}, ICML'10, (USA), pp.~807--814,
+  Omnipress, 2010.
+
+\bibitem{DBLP:journals/corr/KingmaB14}
+D.~P. Kingma and J.~Ba, ``Adam: {A} method for stochastic optimization,'' in
+  {\em {ICLR}}, 2015.
+
+\bibitem{JMLR:v15:srivastava14a}
+N.~Srivastava, G.~Hinton, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov,
+  ``Dropout: A simple way to prevent neural networks from overfitting,'' {\em
+  Journal of Machine Learning Research}, vol.~15, pp.~1929--1958, 2014.
+
+\bibitem{Ng:2004:FSL:1015330.1015435}
+A.~Y. Ng, ``Feature selection, l1 vs. l2 regularization, and rotational
+  invariance,'' in {\em Proceedings of the Twenty-first International
+  Conference on Machine Learning}, ICML '04, (New York, NY, USA), pp.~78--,
+  ACM, 2004.
+
+\bibitem{Ioffe2015BatchNA}
+S.~Ioffe and C.~Szegedy, ``Batch normalization: Accelerating deep network
+  training by reducing internal covariate shift,'' in {\em ICML}, 2015.
+
+\bibitem{Zou2019}
+J.~Zou, M.~Huss, A.~Abid, P.~Mohammadi, A.~Torkamani, and A.~Telenti, ``A
+  primer on deep learning in genomics,'' {\em Nature Genetics}, vol.~51, no.~1,
+  pp.~12--18, 2019.
+
+\bibitem{Mishra2017}
+S.~Mishra, B.~A. Gordon, Y.~Su, J.~Christensen, K.~Friedrichsen, K.~Jackson,
+  R.~Hornbeck, D.~A. Balota, N.~J. Cairns, J.~C. Morris, B.~M. Ances, and T.~L.
+  Benzinger, ``{AV-1451 PET imaging of tau pathology in preclinical Alzheimer
+  disease: Defining a summary measure},'' {\em NeuroImage}, vol.~161,
+  pp.~171--178, nov 2017.
+
+\bibitem{SANKARI2011165}
+Z.~Sankari and H.~Adeli, ``Probabilistic neural networks for diagnosis of
+  alzheimer's disease using conventional and wavelet coherence,'' {\em Journal
+  of Neuroscience Methods}, vol.~197, no.~1, pp.~165 -- 170, 2011.
+
+\bibitem{Rowe2013}
+C.~C. Rowe, P.~Bourgeat, K.~A. Ellis, B.~Brown, Y.~Y. Lim, R.~Mulligan,
+  G.~Jones, P.~Maruff, M.~Woodward, R.~Price, P.~Robins, H.~Tochon-Danguy,
+  G.~O'Keefe, K.~E. Pike, P.~Yates, C.~Szoeke, O.~Salvado, S.~L. Macaulay,
+  T.~O'Meara, R.~Head, L.~Cobiac, G.~Savage, R.~Martins, C.~L. Masters,
+  D.~Ames, and V.~L. Villemagne, ``{Predicting Alzheimer disease with
+  $\beta$-amyloid imaging: Results from the Australian imaging, biomarkers, and
+  lifestyle study of ageing},'' {\em Annals of Neurology}, vol.~74,
+  pp.~905--913, dec 2013.
+
+\bibitem{Mathotaarachchi2017a}
+S.~Mathotaarachchi, T.~A. Pascoal, M.~Shin, A.~L. Benedet, M.~S. Kang,
+  T.~Beaudry, V.~S. Fonov, S.~Gauthier, P.~Rosa-Neto, and {Alzheimer's Disease
+  Neuroimaging Initiative}, ``{Identifying incipient dementia individuals using
+  machine learning and amyloid imaging.},'' {\em Neurobiology of aging},
+  vol.~59, pp.~80--90, nov 2017.
+
+\bibitem{Lambert2013}
+J.-C. Lambert, C.~A. Ibrahim-Verbaas, D.~Harold, and et~al, ``Meta-analysis of
+  74,046 individuals identifies 11 new susceptibility loci for
+  alzheimer\&\#39;s disease,'' {\em Nature Genetics}, vol.~45, pp.~1452 EP --,
+  Oct 2013.
+
+\bibitem{PLINK}
+S.~Purcell, B.~Neale, K.~Todd-Brown, L.~Thomas, M.~A.R.~Ferreira, D.~Bender,
+  J.~Maller, P.~Sklar, P.~I~W~de Bakker, M.~Daly, and P.~C~Sham, ``Plink: A
+  tool set for whole-genome association and population-based linkage
+  analyses,'' {\em American journal of human genetics}, vol.~81, pp.~559--75,
+  10 2007.
+
+\bibitem{plink2}
+C.~C. Shaun~Purcell, ``Plink 1.9.'' \url{https://cog-genomics.org/plink/1.9/},
+  2015.
+
+\bibitem{tensorflow2015-whitepaper}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, S.~Ghemawat, I.~Goodfellow, A.~Harp, G.~Irving,
+  M.~Isard, Y.~Jia, R.~Jozefowicz, L.~Kaiser, M.~Kudlur, J.~Levenberg,
+  D.~Man\'{e}, R.~Monga, S.~Moore, D.~Murray, C.~Olah, M.~Schuster, J.~Shlens,
+  B.~Steiner, I.~Sutskever, K.~Talwar, P.~Tucker, V.~Vanhoucke, V.~Vasudevan,
+  F.~Vi\'{e}gas, O.~Vinyals, P.~Warden, M.~Wattenberg, M.~Wicke, Y.~Yu, and
+  X.~Zheng, ``{TensorFlow}: Large-scale machine learning on heterogeneous
+  systems,'' 2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem{chollet2015keras}
+F.~Chollet {\em et~al.}, ``Keras.'' \url{https://keras.io}, 2015.
+
+\bibitem{pyplink}
+L.-P. Lemieux~Perreauls, ``Pyplink.''
+  \url{https://lemieuxl.github.io/pyplink/pyplink.html}, 2015.
+
+\bibitem{Pipeline}
+S.~Turner, L.~Armstrong, Y.~Bradford, C.~Carlsony, D.~Crawford, A.~Crenshaw,
+  M.~{de Andrade}, K.~Doheny, J.~Haines, G.~Hayes, G.~Jarvik, L.~Jiang,
+  I.~Kullo, R.~Li, H.~Ling, T.~Manolio, M.~Matsumoto, C.~McCarty, A.~McDavid,
+  D.~Mirel, J.~Paschall, E.~Pugh, L.~Rasmussen, R.~Wilke, R.~Zuvich, and
+  M.~Ritchie, ``Quality control procedures for genome-wide association
+  studies,'' {\em Current Protocols in Human Genetics}, 1 2011.
+
+\bibitem{Finucane2015}
+H.~K. Finucane, B.~Bulik-Sullivan, A.~Gusev, G.~Trynka, Y.~Reshef, P.-R. Loh,
+  V.~Anttila, H.~Xu, C.~Zang, K.~Farh, S.~Ripke, F.~R. Day, R.~Consortium,
+  S.~W. G. o. t. P.~G. Consortium, T.~R. Consortium, S.~Purcell, E.~Stahl,
+  S.~Lindstrom, J.~R.~B. Perry, Y.~Okada, S.~Raychaudhuri, M.~J. Daly,
+  N.~Patterson, B.~M. Neale, and A.~L. Price, ``Partitioning heritability by
+  functional annotation using genome-wide association summary statistics,''
+  {\em Nature Genetics}, vol.~47, pp.~1228 EP --, Sep 2015.
+
+\bibitem{Consortium2015}
+T.~. G.~P. Consortium, A.~Auton, G.~R. Abecasis, D.~M. Altshuler (Co-Chair),
+  R.~M. Durbin (Co-Chair), D.~R. Bentley, A.~Chakravarti, A.~G. Clark,
+  P.~Donnelly, E.~E. Eichler, P.~Flicek, S.~B. Gabriel, R.~A. Gibbs, E.~D.
+  Green, M.~E. Hurles, B.~M. Knoppers, J.~O. Korbel, E.~S. Lander, C.~Lee,
+  H.~Lehrach, E.~R. Mardis, G.~T. Marth, G.~A. McVean, D.~A. Nickerson, J.~P.
+  Schmidt, S.~T. Sherry, J.~Wang, R.~K. Wilson, R.~A. Gibbs
+  (Principal~Investigator), E.~Boerwinkle, H.~Doddapaneni, Y.~Han, V.~Korchina,
+  C.~Kovar, S.~Lee, D.~Muzny, J.~G. Reid, Y.~Zhu, J.~Wang
+  (Principal~Investigator), Y.~Chang, Q.~Feng, X.~Fang, X.~Guo, M.~Jian,
+  H.~Jiang, X.~Jin, T.~Lan, G.~Li, J.~Li, Y.~Li, S.~Liu, X.~Liu, Y.~Lu, X.~Ma,
+  M.~Tang, B.~Wang, G.~Wang, H.~Wu, R.~Wu, X.~Xu, Y.~Yin, D.~Zhang, W.~Zhang,
+  J.~Zhao, M.~Zhao, X.~Zheng, E.~S. Lander (Principal~Investigator), D.~M.
+  Altshuler, S.~B. Gabriel (Co-Chair), N.~Gupta, N.~Gharani, L.~H. Toji, N.~P.
+  Gerry, A.~M. Resch, P.~Flicek (Principal~Investigator), J.~Barker, L.~Clarke,
+  L.~Gil, S.~E. Hunt, G.~Kelman, E.~Kulesha, R.~Leinonen, W.~M. McLaren,
+  R.~Radhakrishnan, A.~Roa, D.~Smirnov, R.~E. Smith, I.~Streeter, A.~Thormann,
+  I.~Toneva, B.~Vaughan, X.~Zheng-Bradley, D.~R. Bentley
+  (Principal~Investigator), R.~Grocock, S.~Humphray, T.~James, Z.~Kingsbury,
+  H.~Lehrach (Principal~Investigator), R.~Sudbrak (Project~Leader), M.~W.
+  Albrecht, V.~S. Amstislavskiy, T.~A. Borodina, M.~Lienhard, F.~Mertes,
+  M.~Sultan, B.~Timmermann, M.-L. Yaspo, E.~R. Mardis (Co-Principal
+  Investigator) (Co-Chair), R.~K. Wilson (Co-Principal~Investigator),
+  L.~Fulton, R.~Fulton, S.~T. Sherry (Principal~Investigator), V.~Ananiev,
+  Z.~Belaia, D.~Beloslyudtsev, N.~Bouk, C.~Chen, D.~Church, R.~Cohen, C.~Cook,
+  J.~Garner, T.~Hefferon, M.~Kimelman, C.~Liu, J.~Lopez, P.~Meric,
+  C.~O'Sullivan, Y.~Ostapchuk, L.~Phan, S.~Ponomarov, V.~Schneider,
+  E.~Shekhtman, K.~Sirotkin, D.~Slotta, H.~Zhang, G.~A. McVean
+  (Principal~Investigator), R.~M. Durbin (Principal~Investigator),
+  S.~Balasubramaniam, J.~Burton, P.~Danecek, T.~M. Keane, A.~Kolb-Kokocinski,
+  S.~McCarthy, J.~Stalker, M.~Quail, J.~P. Schmidt (Principal~Investigator),
+  C.~J. Davies, J.~Gollub, T.~Webster, B.~Wong, Y.~Zhan, A.~Auton
+  (Principal~Investigator), C.~L. Campbell, Y.~Kong, A.~Marcketta,
+  F.~Yu~(Project~Leader), L.~Antunes, M.~Bainbridge, A.~Sabo, Z.~Huang,
+  L.~J.~M. Coin, L.~Fang, Q.~Li, Z.~Li, H.~Lin, B.~Liu, R.~Luo, H.~Shao,
+  Y.~Xie, C.~Ye, C.~Yu, F.~Zhang, H.~Zheng, H.~Zhu, C.~Alkan, E.~Dal,
+  F.~Kahveci, G.~T. Marth (Principal~Investigator), E.~P. Garrison
+  (Project~Lead), D.~Kural, W.-P. Lee, W.~Fung~Leong, M.~Stromberg, A.~N. Ward,
+  J.~Wu, M.~Zhang, M.~J. Daly (Principal~Investigator), M.~A. DePristo
+  (Project~Leader), R.~E. Handsaker (Project~Leader), E.~Banks, G.~Bhatia,
+  G.~del Angel, G.~Genovese, H.~Li, S.~Kashin, S.~A. McCarroll, J.~C. Nemesh,
+  R.~E. Poplin, S.~C. Yoon (Principal~Investigator), J.~Lihm, V.~Makarov, A.~G.
+  Clark (Principal~Investigator), S.~Gottipati, A.~Keinan, J.~L.
+  Rodriguez-Flores, J.~O. Korbel (Principal~Investigator), T.~Rausch
+  (Project~Leader), M.~H. Fritz, A.~M. St{\"u}tz, K.~Beal, A.~Datta,
+  J.~Herrero, G.~R.~S. Ritchie, D.~Zerbino, P.~C. Sabeti
+  (Principal~Investigator), I.~Shlyakhter, S.~F. Schaffner, J.~Vitti, D.~N.
+  Cooper (Principal~Investigator), E.~V. Ball, P.~D. Stenson, B.~Barnes,
+  M.~Bauer, R.~Keira~Cheetham, A.~Cox, M.~Eberle, S.~Kahn, L.~Murray, J.~Peden,
+  R.~Shaw, E.~E. Kenny (Principal~Investigator), M.~A. Batzer
+  (Principal~Investigator), M.~K. Konkel, J.~A. Walker, D.~G. MacArthur
+  (Principal~Investigator), M.~Lek, R.~Herwig, E.~R. Mardis
+  (Co-Principal~Investigator), L.~Ding, D.~C. Koboldt, D.~Larson, K.~Ye,
+  S.~Gravel, A.~Swaroop, E.~Chew, T.~Lappalainen (Principal~Investigator),
+  Y.~Erlich (Principal~Investigator), M.~Gymrek, T.~Frederick~Willems, J.~T.
+  Simpson, M.~D. Shriver (Principal~Investigator), J.~A. Rosenfeld
+  (Principal~Investigator), C.~D. Bustamante (Principal~Investigator), S.~B.
+  Montgomery (Principal~Investigator), F.~M. De~La Vega
+  (Principal~Investigator), J.~K. Byrnes, A.~W. Carroll, M.~K. DeGorter,
+  P.~Lacroute, B.~K. Maples, A.~R. Martin, A.~Moreno-Estrada, S.~S.
+  Shringarpure, F.~Zakharia, E.~Halperin (Principal~Investigator), Y.~Baran,
+  C.~Lee (Principal~Investigator), E.~Cerveira, J.~Hwang, A.~Malhotra
+  (Co-Project~Lead), D.~Plewczynski, K.~Radew, M.~Romanovitch, C.~Zhang
+  (Co-Project~Lead), F.~C.~L. Hyland, D.~W. Craig (Principal~Investigator),
+  A.~Christoforides, N.~Homer, T.~Izatt, A.~A. Kurdoglu, S.~A. Sinari,
+  K.~Squire, C.~Xiao, J.~Sebat (Principal~Investigator), D.~Antaki, M.~Gujral,
+  A.~Noor, K.~Ye, E.~G. Burchard (Principal~Investigator), R.~D. Hernandez
+  (Principal~Investigator), C.~R. Gignoux, D.~Haussler
+  (Principal~Investigator), S.~J. Katzman, W.~James~Kent, B.~Howie,
+  A.~Ruiz-Linares (Principal~Investigator), E.~T. Dermitzakis
+  (Principal~Investigator), S.~E. Devine (Principal~Investigator), G.~R.
+  Abecasis (Principal Investigator) (Co-Chair), H.~Min Kang (Project~Leader),
+  J.~M. Kidd (Principal~Investigator), T.~Blackwell, S., ``A global reference
+  for human genetic variation,'' {\em Nature}, vol.~526, pp.~68 EP --, Sep
+  2015.
+\newblock Article.
+
+\bibitem{Alexiou2017}
+A.~Alexiou, V.~D. Mantzavinos, N.~H. Greig, and M.~A. Kamal, ``A bayesian model
+  for the prediction and early diagnosis of alzheimer's disease,'' {\em
+  Frontiers in Aging Neuroscience}, vol.~9, p.~77, 2017.
+
+\bibitem{Dufouil2018}
+C.~Dufouil and M.~M. Glymour, ``Prediction to prevention in alzheimer's disease
+  and dementia,'' {\em The Lancet Neurology}, vol.~17, pp.~388--389, 2018/06/14
+  2018.
+
+\bibitem{Escott015}
+V.~Escott-Price, R.~Sims, C.~Bannister, D.~Harold, M.~Vronskaya, E.~Majounie,
+  N.~Badarinarayan, GERAD/PERADES, I.~consortia, K.~Morgan, P.~Passmore,
+  C.~Holmes, J.~Powell, C.~Brayne, M.~Gill, S.~Mead, A.~Goate, C.~Cruchaga,
+  J.-C. Lambert, C.~van Duijn, W.~Maier, A.~Ramirez, P.~Holmans, L.~Jones,
+  J.~Hardy, S.~Seshadri, G.~D. Schellenberg, P.~Amouyel, and J.~Williams,
+  ``Common polygenic variation enhances risk prediction for alzheimer’s
+  disease,'' {\em Brain}, vol.~138, no.~12, pp.~3673--3684, 2015.
+
+\bibitem{Escott2017}
+V.~Escott-Price, M.~Shoai, R.~Pither, J.~Williams, and J.~Hardy, ``Polygenic
+  score prediction captures nearly all common genetic risk for alzheimer's
+  disease,'' {\em Neurobiology of Aging}, vol.~49, pp.~214.e7--214.e11, 2017.
+
+\bibitem{Goodfellow2016}
+I.~Goodfellow, Y.~Bengio, and A.~Courville, {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{Lacour2016}
+A.~Lacour, A.~Espinosa, E.~Louwersheimer, S.~Heilmann, I.~Hern{\'a}ndez,
+  S.~Wolfsgruber, V.~Fern{\'a}ndez, H.~Wagner, M.~Rosende-Roca, A.~Maule{\'o}n,
+  S.~Moreno-Grau, L.~Vargas, Y.~A.~L. Pijnenburg, T.~Koene,
+  O.~Rodr{\'\i}guez-G{\'o}mez, G.~Ortega, S.~Ruiz, H.~Holstege,
+  O.~Sotolongo-Grau, J.~Kornhuber, O.~Peters, L.~Fr{\"o}lich, M.~H{\"u}ll,
+  E.~R{\"u}ther, J.~Wiltfang, M.~Scherer, S.~Riedel-Heller, M.~Alegret, M.~M.
+  N{\"o}then, P.~Scheltens, M.~Wagner, L.~T{\'a}rraga, F.~Jessen, M.~Boada,
+  W.~Maier, W.~M. van~der Flier, T.~Becker, A.~Ramirez, and A.~Ruiz,
+  ``Genome-wide significant risk factors for alzheimer's disease: role in
+  progression to dementia due to alzheimer's disease among subjects with mild
+  cognitive impairment,'' {\em Molecular Psychiatry}, vol.~22, pp.~153 EP --,
+  03 2016.
+
+\end{thebibliography}
